@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Анкета за мир</title>
+    <link rel="shortcut icon" href="images/Flixter.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="quiz.css" />
+  </head>
+  <body>
+    <!-- Начален екран с бутон -->
+    <div class="start-screen popup-container active">
+      <div class="start-box quiz-box">
+        <h2 class="start-title">Анкета: Вашето мнение за мира</h2>
+        <p class="start-quote">
+          "Мирът не е само отсъствието на война, а и присъствието на
+          справедливост и разбирателство."
+        </p>
+        <img src="images/quiz.png" alt="Quiz Image" class="centered-image" />
+        <button class="start-quiz-btn">Да започваме!</button>
+      </div>
+    </div>
+
+    <!-- Основен Quiz Popup (въпросите) -->
+    <div class="quiz-popup popup-container">
+      <div class="quiz-container quiz-box">
+        <div class="quiz-content">
+          <h1 class="question-text"></h1>
+          <ul class="answer-options"></ul>
+        </div>
+        <div class="quiz-footer">
+          <p class="question-status"></p>
+          <button class="next-question-btn">Следващ въпрос</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Резултати Popup -->
+    <div class="result-popup popup-container">
+      <div class="result-container quiz-box">
+        <h2 class="result-title">Анкета приключена!</h2>
+        <p class="result-message">
+          Благодарим ви за участието! Вашият отговор е важен за нас.
+        </p>
+        <img src="images/quiz-2.png" alt="" class="centered-image" />
+
+        <!-- Форма за изпращане на резултати чрез Formspree -->
+        <form
+          action="https://formspree.io/f/moveaavo"
+          method="POST"
+          id="result-form"
+        >
+          <!-- Скрито поле за резултатите -->
+          <input type="hidden" name="results" id="form-results" />
+
+          <label class="email-label">
+            Вашият имейл:
+            <input type="email" name="email" required class="email-input" />
+          </label>
+
+          <button type="submit" class="submit-btn">
+            Изпратете резултатите на имейл
+          </button>
+        </form>
+
+        <button class="try-again-btn">Попълни отново</button>
+      </div>
+    </div>
+
+    <script src="quiz.js"></script>
+  </body>
+</html>

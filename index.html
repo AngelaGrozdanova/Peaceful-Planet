@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Peaseful Planet</title>
+
+  <link rel="shortcut icon" href="images/Flixter.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Roboto:wght@300;400;500;700&family=Oswald:wght@600&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <!-- <h1> -->
+        <a href="#" class="logo">
+          <img src="images/Flixter (5).svg" alt="Peace Planet Logo" width="50" height="50">
+        </a>
+      <!-- </h1> -->
+      
+
+      <select name="language" class="lang-switch" onchange="changeLanguage(this.value)">
+        <option value="english">English</option>
+        <option value="bulgarian">Български</option>
+      </select>
+
+      <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
+
+        <a href="#" class="logo" id="navLogo">Peace Planet</a>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="index.html" class="navbar-link" data-nav-link>
+              <span id="navHome">Home</span>
+
+              <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="about.html" class="navbar-link" data-nav-link>
+              <span id="navAbout">About</span>
+
+              <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="initsiative.html" class="navbar-link" data-nav-link>
+              <span id="navInitsiative">Initsiative</span>
+
+              <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="next.html" class="navbar-link" data-nav-link>
+              <span id="navProject">Project</span>
+
+              <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="event.html" class="navbar-link" data-nav-link>
+              <span id="navEvent">Event</span>
+
+              <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <div class="header-action">
+
+          <a href="form.html" target="_blank" class="btn btn-primary" id="btnLogin">Form</a>
+
+          <a href="quiz.html" target="_blank" class="btn btn-primary" id="btnSearch">Quiz</a>
+       
+      </div>
+
+    </div>
+  </header>
+
+  <main>
+    <article>
+      <section class="hero" id="home">
+        <div class="container">
+
+          <p class="section-subtitle">
+            <img src="./assets/images/subtitle-img-white.png" width="32" height="7">
+
+            <span id="heroSubtitle">Welcome to Peace Planet</span>
+          </p>
+
+          <h2 class="h1 hero-title" id="heroTitle">
+            Love, Protect, and Restore Our <strong>Peaceful Planet</strong>
+          </h2>
+
+          <p class="hero-text" id="heroText">
+            Join us on a journey through exciting initiatives, personal stories, events, and projects that inspire change.
+          </p>
+
+          <div class="buttons">
+            <a href="#about">
+              <button class="btn btn-primary">
+                <span id="btnExplore">Explore</span>
+                <ion-icon name="leaf-outline"></ion-icon>
+              </button>
+            </a>
+
+            <a href="next.html">
+          <button class="btn btn-primary">
+            <ion-icon name="play-outline"></ion-icon>
+            <span id="btnWatchStory">Watch Our Story</span>
+          </button></a>
+        </div>
+        </div>
+
+        <div class="hero-image">
+          <img src="images/Flixter__3_-removebg-preview.png">
+        </div>
+
+        </div>
+      </section>
+
+      <section class="section features">
+        <div class="container">
+
+          <ul class="features-list">
+
+            <li class="features-item">
+              <div class="item-icon">
+                <ion-icon name="shield-checkmark-outline"></ion-icon>
+              </div>
+
+              <div>
+                <h3 class="h4 item-title" id="feature1Title">Safe Shelter</h3>
+                <p class="item-text" id="feature1Text">
+                  Providing secure, sustainable housing for communities and wildlife alike.
+                </p>
+              </div>
+            </li>
+
+            <li class="features-item">
+              <div class="item-icon">
+                <ion-icon name="water-outline"></ion-icon>
+              </div>
+
+              <div>
+                <h3 class="h4 item-title" id="feature2Title">Clean Water</h3>
+          <p class="item-text" id="feature2Text">
+            Ensuring access to pure water through eco-friendly innovations.
+          </p>
+              </div>
+            </li>
+
+            <li class="features-item">
+              <div class="item-icon">
+                <ion-icon name="leaf-outline"></ion-icon>
+              </div>
+
+              <div>
+                <h3 class="h4 item-title" id="feature3Title">Eco Balance</h3>
+                <p class="item-text" id="feature3Text">
+                  Promoting biodiversity and sustainable practices for a thriving planet.
+                </p>
+              </div>
+            </li>
+
+            <li class="features-item">
+              <div class="item-icon">
+                <ion-icon name="snow-outline"></ion-icon>
+              </div>
+
+              <div>
+                <h3 class="h4 item-title" id="feature4Title">Environment</h3>
+                <p class="item-text" id="feature4Text">
+                  Embracing renewable energy and conservation to safeguard our natural resources.
+                </p>
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+      <section class="section about" id="about">
+        <img src="images/Flixter__43_-removebg-preview.png" alt="" class="planet">
+        <img src="images/Flixter__44_-removebg-preview.png" alt="" class="planet-wind">
+        <div class="container">
+
+          <div class="about-banner">
+
+            <h2 class="deco-title" id="aboutTitle">About Us</h2>
+
+            <img src="./assets/images/deco-img.png" width="58" height="261" alt="" class="deco-img">
+
+            <div class="banner-row">
+
+              <div class="banner-col">
+                <img src="images/view.png" width="315" height="270" loading="lazy"
+                  class="about-img w-100">
+
+                <img src="images/Screenshot 2025-02-19.png" width="386" height="250" loading="lazy" 
+                  class="about-img about-img-2 w-100">
+              </div>
+
+              <div class="banner-col">
+                <img src="images/Flixter (6).png" width="250" height="277" loading="lazy" 
+                  class="about-img about-img-3 w-100">
+
+                <img src="images/arm .png" width="315" height="380" loading="lazy"
+                  class="about-img w-100">
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="about-content">
+
+            <p class="section-subtitle">
+              <img src="./assets/images/subtitle-img-green.png" width="32" height="7">
+
+              <span id="aboutWhyChoose">Why Choose Us</span>
+            </p>
+
+            <h2 class="h2 section-title">
+              <span id="aboutRaiseHand">Raise Your Hand to Save</span> <strong id="aboutLifeOnEarth">Life on Earth</strong>
+            </h2>
+
+            <ul class="tab-nav">
+              <li><button class="tab-btn active" id="aboutMission">Our Mission</button></li>
+              <li><button class="tab-btn" id="aboutVision">Our Vision</button></li>
+              <li><button class="tab-btn" id="aboutPlans">Future Plans</button></li>
+            </ul>
+
+            <div class="tab-content">
+
+              <p class="section-text" id="aboutMissionText">
+                At Peaceful Planet, our mission is to create a harmonious world where humans and nature thrive together. We are dedicated to sustainable living, protecting biodiversity, and empowering communities to drive positive change.
+              </p>
+      
+
+              <ul class="tab-list">
+
+                <li class="tab-item">
+                  <div class="item-icon">
+                    <ion-icon name="checkmark-circle"></ion-icon>
+                  </div>
+
+                  <p class="tab-text" id="aboutSustainable">Sustainable Living</p>
+                </li>
+
+                <li class="tab-item">
+                  <div class="item-icon">
+                    <ion-icon name="checkmark-circle"></ion-icon>
+                  </div>
+
+                  <p class="tab-text" id="aboutRenewable">Renewable Energy</p>
+                </li>
+
+                <li class="tab-item">
+                  <div class="item-icon">
+                    <ion-icon name="checkmark-circle"></ion-icon>
+                  </div>
+
+                  <p class="tab-text" id="aboutWildlife">Wildlife Protection</p>
+                </li>
+
+                <li class="tab-item">
+                  <div class="item-icon">
+                    <ion-icon name="checkmark-circle"></ion-icon>
+                  </div>
+
+                  <p class="tab-text" id="aboutCommunity">Community Empowerment</p>
+                </li>
+
+              </ul>
+
+              <a href="about.html">
+              <button class="btn btn-secondary">
+                <span id="aboutLearnMore">Learn More Us</span>
+
+                <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+              </button>
+            </a>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+      <section class="section service has-shape" id="services" aria-label="service">
+        <div class="container">
+
+          <div class="title-wrapper">
+            <h2 class="h2 section-title" id="serviceTitle">
+              Explore Our <span id="serviceSpan">Content</span>
+            </h2>
+
+            <p class="section-text" id="serviceText">
+              Dive into valuable information about building a peaceful and sustainable future. Discover initiatives, inspiring events, global projects, and stories that highlight the path to a more harmonious planet.
+            </p>
+          </div>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="service-card">
+
+                <figure class="card-icon">
+                  <img src="images/environmentalism.png" width="60" height="60" loading="lazy" alt="service icon">
+                </figure>
+
+                <h3 class="h3">
+                  <a href="initiatives.html" class="card-title" id="card1Title">Global Initiatives</a>
+                </h3>
+
+                <p class="card-text" id="card1Text">
+                  Discover global initiatives focused on peace, sustainability, and protecting our planet for future generations.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <figure class="card-icon">
+                  <img src="images/park.png" width="60" height="60" loading="lazy" alt="service icon">
+                </figure>
+
+               <h3 class="h3">
+            <a href="projects.html" class="card-title" id="card2Title">Inspiring Projects</a>
+          </h3>
+          <p class="card-text" id="card2Text">
+            Explore inspiring projects that bring communities together to create a peaceful and eco-friendly future.
+          </p>
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <figure class="card-icon">
+                  <img src="images/river.png" width="60" height="60" loading="lazy" alt="service icon">
+                </figure>
+
+                <h3 class="h3">
+                  <a href="about.html" class="card-title" id="card3Title">About Peaceful Planet</a>
+                </h3>
+                <p class="card-text" id="card3Text">
+                  Learn about our important mission to share knowledge, stories, and inspiring examples for a better, peaceful world.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <figure class="card-icon">
+                  <img src="images/nature-product.png" width="60" height="60" loading="lazy" alt="service icon">
+                </figure>
+
+                <h3 class="h3">
+                  <a href="events.html" class="card-title" id="card4Title">Events & Campaigns</a>
+                </h3>
+                <p class="card-text" id="card4Text">
+                  Find events, creative campaigns, and educational programs that promote peace, environmental awareness, and global unity.
+                </p>
+              </div>
+            </li>
+
+          </ul>
+
+          <img src="images/Flixter__8_-removebg-preview.png" width="558" height="158" loading="lazy" alt=""
+            class="shape shape-1">
+
+            <img src="images/Flixter__8_-removebg-preview.png" width="558" height="158" loading="lazy" alt=""
+            class="shape shape-2">
+
+        </div>
+      </section>
+
+      <section class="section services" id="service" aria-label="services">
+        <div class="container">
+
+          <p class="section-subtitle text-center" id="servicesSubtitle">Our Services</p>
+          <h2 class="h2 section-titles text-center" id="servicesTitle">What We Provide</h2>
+          <img src="images/Flixter__13_-removebg-preview.png" alt="Decorative Image" class="title-image-2">
+          <img src="images/Flixter__12_-removebg-preview.png" alt="Decorative Image" class="title-image-1">
+
+          <ul class="service-list">
+
+            <li>
+              <div class="services-card">
+
+                <div class="card-icon">
+                  <img src="images/100-percent.png" width="100" height="100" loading="lazy"
+                    alt="service icon" class="w-100">
+                </div>
+
+                <div>
+                  <h3 class="h3 card-title" id="servicesCard1Title">Eco Initiatives</h3>
+                  <p class="card-text" id="servicesCard1Text">
+                    Discover our eco-friendly initiatives that drive positive change for communities and nature.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="services-card">
+
+                <div class="card-icon">
+                  <img src="images/mountains.png" width="100" height="100" loading="lazy"
+                    alt="service icon" class="w-100">
+                </div>
+
+                <div>
+                  <h3 class="h3 card-title" id="servicesCard2Title">Community Engagement</h3>
+            <p class="card-text" id="servicesCard2Text">
+              Join our efforts to build sustainable communities through local collaborations and shared events.
+            </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="services-card">
+
+                <div class="card-icon">
+                  <img src="images/save-nature.png" width="100" height="100" loading="lazy"
+                    alt="service icon" class="w-100">
+                </div>
+
+                <div>
+                  <h3 class="h3 card-title" id="servicesCard3Title">Green Innovations</h3>
+                  <p class="card-text" id="servicesCard3Text">
+                    Explore innovative solutions designed to reduce environmental impact and promote renewable energy.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="service-banner">
+              <figure>
+                <img src="images/Flixter__10_-removebg-preview.png" width="409" height="467" loading="lazy"
+                  alt="service banner" class="w-100">
+              </figure>
+            </li>
+
+            <li>
+              <div class="services-card">
+
+                <div class="card-icon">
+                  <img src="images/leaf.png" width="100" height="100" loading="lazy"
+                    alt="service icon" class="w-100">
+                </div>
+
+                <div>
+                  <h3 class="h3 card-title" id="servicesCard5Title">Sustainable Projects</h3>
+            <p class="card-text" id="servicesCard5Text">
+              Learn about our projects that create lasting environmental impact and foster a greener future.
+            </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="services-card">
+
+                <div class="card-icon">
+                  <img src="images/sprout.png" width="100" height="100" loading="lazy"
+                    alt="service icon" class="w-100">
+                </div>
+
+                <div>
+                  <h3 class="h3 card-title" id="servicesCard6Title">Environmental Education</h3>
+            <p class="card-text" id="servicesCard6Text">
+              Access resources and workshops to empower you with the knowledge for sustainable living.
+            </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="services-card">
+
+                <div class="card-icon">
+                  <img src="images/extreme-weather.png" width="100" height="100" loading="lazy"
+                    alt="service icon" class="w-100">
+                </div>
+
+                <div>
+                  <h3 class="h3 card-title" id="servicesCard7Title">Global Events</h3>
+            <p class="card-text" id="servicesCard7Text">
+              Stay updated with our events that connect eco-enthusiasts from around the world.
+            </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+      <section class="section cta" aria-label="cta">
+        <img src="images/Flixter__18_-removebg-preview.png" alt="" class="corner">
+        <div class="container">
+
+          <figure class="cta-banner">
+            <img src="images/Flixter__15_-removebg-preview.png" width="1056" height="1076" loading="lazy" alt="cta banner"
+              class="w-100">
+          </figure>
+
+          <div class="cta-content">
+
+            <p class="section-subtitle" id="ctaSubtitle">Discover Our Impact</p>
+            <h2 class="h2 section-title dark" id="ctaTitle">
+              Explore our initiatives, projects, and events that are shaping a greener, <span>more peaceful world.</span>
+            </h2>
+            <a href="initiatives.html" class="btn btne" id="ctaBtnInitiatives">View Initiatives</a>
+            <a href="projects.html" class="btn btne" id="ctaBtnProjects">Learn About Our Projects</a>
+
+          </div>
+
+        </div>
+      </section>
+
+      <div class="map">
+        <p class="section-subtitle text-center green" id="mapSubtitle">Peace initiatives</p>
+      <h2 class="h2 section-titles text-center big" id="mapTitle">
+        How States Contribute to World Peace
+      </h2>
+      <div id="tooltip" class="tooltip"></div> 
+      
+  
+
+      <object id="worldMap" type="image/svg+xml" data="images/map.svg" width="1200" height="800"></object>
+
+      <img src="images/Flixter__18_-removebg-preview.png" class="corner-icon-2">
+      <img src="images/Flixter__17_-removebg-preview.png"  class="corner-icon">
+      <img src="images/Flixter__19_-removebg-preview.png"  class="corner-icon-3">
+    </div>
+
+    <section class="section blog" id="blog" aria-label="blog">
+      <img src="images/Flixter__45_-removebg-preview.png" alt="Decorative Image" class="top-corner-image">
+      <img src="images/Flixter__47_-removebg-preview.png" alt="Decorative Image" class="left-corner-image">
+      <img src="images/Flixter__21_-removebg-preview.png" alt="Decorative Image" class="right-corner-image">
+      <img src="images/Flixter__46_-removebg-preview.png" alt="" class="botoom">
+      <div class="container">
+
+        <p class="section-subtitle text-center green" id="blogSubtitle">Our Blog</p>
+
+        <h2 class="h2 section-title text-center big" id="blogTitle">Latest Global Initiatives & News</h2>
+
+        <ul class="blog-list">
+
+          <li>
+            <div class="blog-card">
+
+              <figure class="card-banner img-holder" style="--width: 1180; --height: 800;">
+                <img src="images/Screenshot 2025-02-28 at 18.46.23.png" width="1180" height="800" loading="lazy"
+                  alt="Cras accumsan nulla nec lacus ultricies placerat." class="img-cover">
+
+                <div class="card-badge">
+                  <ion-icon name="calendar-outline"></ion-icon>
+
+                  <time class="time" datetime="2022-03-24">15th Feb 2023</time>
+                </div>
+              </figure>
+
+              <div class="card-content">
+
+                <h3 class="h3">
+                  <a href="https://www.worldvision.org/disaster-relief-news-stories/2023-turkey-and-syria-earthquake-faqs" target="_blank" class="card-title" id="blogPost1Title">Global Response to Turkey Earthquake</a>
+                </h3>
+
+                <p class="card-text" id="blogPost1Text">
+                  Discover how communities across continents united to support Turkey's earthquake relief efforts.
+                </p>
+
+                <a href="https://www.worldvision.org/disaster-relief-news-stories/2023-turkey-and-syria-earthquake-faqs" target="_blank" class="card-link" id="blogPost1ReadMore">Read More</a>
+
+              </div>
+
+            </div>
+          </li>
+
+          <li>
+            <div class="blog-card">
+
+              <figure class="card-banner img-holder" style="--width: 1180; --height: 800;">
+                <img src="images/Screenshot 2025-02-28 at 18.48.42.png" width="1180" height="800" loading="lazy"
+                  alt="Dras accumsan nulla nec lacus ultricies placerat." class="img-cover">
+
+                <div class="card-badge">
+                  <ion-icon name="calendar-outline"></ion-icon>
+
+                  <time class="time" datetime="2022-03-24">10th Mar 2023</time>
+                </div>
+              </figure>
+
+              <div class="card-content">
+
+                <h3 class="h3">
+                  <a href="https://www.consilium.europa.eu/bg/policies/eu-solidarity-ukraine/" target="_blank" class="card-title" id="blogPost2Title">Solidarity in Ukraine: Global Aid Initiatives</a>
+                </h3>
+
+                <p class="card-text" id="blogPost2Text">
+                  Learn about international efforts coming together to support Ukraine during its crisis.
+                </p>
+
+                <a href="https://www.consilium.europa.eu/bg/policies/eu-solidarity-ukraine/" target="_blank" class="card-link" id="blogPost2ReadMore">Read More</a>
+
+              </div>
+
+            </div>
+          </li>
+
+          <li>
+            <div class="blog-card">
+
+              <figure class="card-banner img-holder" style="--width: 1180; --height: 800;">
+                <img src="images/Screenshot 2025-02-28 at 18.56.53.png" width="1180" height="800" loading="lazy"
+                  alt="Seas accumsan nulla nec lacus ultricies placerat." class="img-cover">
+
+                <div class="card-badge">
+                  <ion-icon name="calendar-outline"></ion-icon>
+
+                  <time class="time" datetime="2022-03-24">5th Apr 2023</time>
+                </div>
+              </figure>
+
+              <div class="card-content">
+
+                <h3 class="h3">
+                  <a href="https://move.bg/programs/green-solutions-eng" target="_blank" class="card-title" id="blogPost3Title">Green Team Bulgaria: Cultivating a Sustainable Future</a>
+                </h3>
+
+                <p class="card-text" id="blogPost3Text">
+                  Discover how Green Team Bulgaria has mobilized volunteers to plant over 64,000 trees.
+                </p>
+
+                <a href="https://move.bg/programs/green-solutions-eng" target="_blank" class="card-link" id="blogPost3ReadMore">Read More</a>
+
+              </div>
+
+            </div>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <button class="btn btn-secondary-re" id="viewMoreBlogsBtn" onclick="window.location.href='initsiative.html'">
+        <span>View More Blogs</span>
+        <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+      </button>
+    </section>
+
+      <footer class="footer">
+        <img src="images/Flixter__24_-removebg-preview.png" alt="Decorative Background" class="footer-bg-image">
+        <img src="images/Flixter__24_-removebg-preview.png" alt="Decorative Background" class="footer-bg-image-1">
+
+        <div class="footer-top section">
+          <div class="container">
+    
+            <div class="footer-brand">
+    
+              <a href="#" class="logo">
+                <img src="images/Flixter (5).svg" alt="Peace Planet Logo" width="50" height="50">
+              </a>
+    
+              <p class="footer-text" id="footerText">
+                Join us in making the world a peaceful place. Together, we can create a sustainable future for all. Let's take action today for a better tomorrow.
+              </p>
+    
+              <form action="" class="newsletter-form">
+                <input type="email" name="email_address" placeholder="Enter your email" required class="email-field">
+    
+                <button type="submit" class="form-btn">
+                 <a href="form.html"><ion-icon name="paper-plane" aria-hidden="true"></ion-icon></a>
+                </button>
+              </form>
+    
+            </div>
+    
+            <ul class="footer-list">
+    
+              <li>
+                <p class="footer-list-title" id="footerCategoryTitle">Category</p>
+              </li>
+    
+              <li>
+                <a href="index.html" class="footer-link" id="footerHomeLink">Home page</a>
+              </li>
+    
+              <li>
+                <a href="about.html" class="footer-link" id="footerAboutLink">About page</a>
+              </li>
+    
+              <li>
+                <a href="initsiative.html" class="footer-link" id="footerInitsiativeLink">Initsiative page</a>
+              </li>
+    
+              <li>
+                <a href="next.html" class="footer-link" id="footerProjectLink">Project page</a>
+              </li>
+    
+              <li>
+                <a href="event.html" class="footer-link" id="footerEventLink">Event page</a>
+              </li>
+    
+    
+            </ul>
+    
+            <ul class="footer-list">
+    
+              <li>
+                <p class="footer-list-title" id="footerInformationTitle">Information</p>
+              </li>
+    
+              <li>
+                <a href="info.html" target="_blank" class="footer-link" id="footerAdditionalInfoLink">Additional information</a>
+              </li>
+
+              <li>
+                <a href="form.html" target="_blank" class="footer-link" id="footerFormLink">Form</a>
+              </li>
+
+              <li>
+                <a href="quiz.html" target="_blank" class="footer-link" id="footerQuizLink">Quiz</a>
+              </li>
+              <li>
+                <a href="site-map.html" target="_blank" class="footer-link" id="footerSitemapLink">Website map</a>
+              </li>
+    
+            </ul>
+    
+            <ul class="footer-list">
+    
+              <li>
+                <p class="footer-list-title" id="footerContactTitle">Contact Me</p>
+              </li>
+    
+              <li class="footer-item">
+                <ion-icon name="location" aria-hidden="true"></ion-icon>
+    
+                <address class="contact-link address" id="footerAddress">
+                  ul. Mencha Karnicheva № 23
+                </address>
+              </li>
+    
+              <li class="footer-item">
+                <ion-icon name="call" aria-hidden="true"></ion-icon>
+    
+                <a href="tel:+7894631546876" class="contact-link">+359 76 77 450</a>
+              </li>
+    
+              <li class="footer-item">
+                <ion-icon name="mail" aria-hidden="true"></ion-icon>
+    
+                <a href="mailto:info@hoolix.com" class="contact-link">ahg_2020g@pgiblg.com</a>
+              </li>
+    
+              <li class="footer-item">
+                <ul class="social-list">
+    
+                  <li>
+                    <a href="#" class="social-link">
+                      <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                  </li>
+    
+                  <li>
+                    <a href="#" class="social-link">
+                      <ion-icon name="logo-twitter"></ion-icon>
+                    </a>
+                  </li>
+    
+                  <li>
+                    <a href="#" class="social-link">
+                      <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                  </li>
+    
+                  <li>
+                    <a href="#" class="social-link">
+                      <ion-icon name="logo-pinterest"></ion-icon>
+                    </a>
+                  </li>
+    
+                </ul>
+              </li>
+    
+            </ul>
+    
+          </div>
+        </div>
+    
+        <div class="footer-bottom">
+          <div class="container">
+    
+            <p class="copyright" id="footerCopyright">
+              &copy; 2025 Peaceful Planet | Created for educational purposes by <a href="#" class="copyright-link">Angela Grozdanova</a>
+            </p>
+    
+            <ul class="footer-bottom-list">
+    
+              <li>
+                <a href="#" class="footer-bottom-link" id="footerPrivacyPolicyLink">Privacy Policy</a>
+              </li>
+    
+              <li>
+                <a href="#" class="footer-bottom-link" id="footerTermsLink">Terms of Use</a>
+              </li>
+    
+            </ul>
+    
+          </div>
+        </div>
+    
+      </footer>
+
+  <script src="language.js"></script>
+  <script src="./assets/js/script.js"></script>  
+
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

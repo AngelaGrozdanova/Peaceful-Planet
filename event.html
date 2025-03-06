@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Peaseful Planet</title>
+
+  <link rel="shortcut icon" href="images/Flixter.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="event.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Roboto:wght@300;400;500;700&family=Oswald:wght@600&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <!-- <h1> -->
+        <a href="#" class="logo">
+          <img src="images/Flixter (5).svg" alt="Peace Planet Logo" width="50" height="50">
+        </a>
+      <!-- </h1> -->
+      
+
+      <select name="language" class="lang-switch" onchange="changeLanguage(this.value)">
+        <option value="english">English</option>
+        <option value="bulgarian">Български</option>
+      </select>
+
+      <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
+
+        <a href="#" class="logo" id="navLogo">Peace Planet</a>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="index.html" class="navbar-link" data-nav-link>
+              <span id="navHome">Home</span>
+
+              <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="about.html" class="navbar-link" data-nav-link>
+              <span id="navAbout">About</span>
+
+              <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="initsiative.html" class="navbar-link" data-nav-link>
+              <span id="navInitsiative">Initsiative</span>
+
+              <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="next.html" class="navbar-link" data-nav-link>
+              <span id="navProject">Project</span>
+
+              <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="event.html" class="navbar-link" data-nav-link>
+              <span id="navEvent">Event</span>
+
+              <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <div class="header-action">
+
+          <a href="form.html" target="_blank" class="btn btn-primary" id="btnLogin">Form</a>
+
+          <a href="quiz.html" target="_blank" class="btn btn-primary" id="btnSearch">Quiz</a>
+       
+      </div>
+
+    </div>
+  </header>
+
+  <main>
+    <article>
+      <section class="hero" id="home">
+        <div class="container">
+
+          <p class="section-subtitle">
+            <img src="./assets/images/subtitle-img-white.png" width="32" height="7">
+
+            <span id="heroSubtitle">Welcome to Peace Planet</span>
+          </p>
+
+          <h2 class="h1 hero-title" id="heroTitle">
+            Love, Protect, and Restore Our <strong>Peaceful Planet</strong>
+          </h2>
+
+          <p class="hero-text" id="heroText">
+            Join us on a journey through exciting initiatives, personal stories, events, and projects that inspire change.
+          </p>
+
+          <div class="buttons">
+            <a href="#course">
+              <button class="btn btn-primary">
+                <span id="btnExplore">Explore</span>
+                <ion-icon name="leaf-outline"></ion-icon>
+              </button>
+            </a>
+
+            <a href="next.html">
+          <button class="btn btn-primary">
+            <ion-icon name="play-outline"></ion-icon>
+            <span id="btnWatchStory">Watch Our Story</span>
+          </button></a>
+        </div>
+        </div>
+
+        <div class="hero-image">
+          <img src="images/Flixter__3_-removebg-preview.png">
+        </div>
+
+        </div>
+      </section>
+
+      <section class="section features">
+        <div class="container">
+
+          <ul class="features-list">
+
+            <li class="features-item">
+              <div class="item-icon">
+                <ion-icon name="shield-checkmark-outline"></ion-icon>
+              </div>
+
+              <div>
+                <h3 class="h4 item-title" id="feature1Title">Safe Shelter</h3>
+                <p class="item-text" id="feature1Text">
+                  Providing secure, sustainable housing for communities and wildlife alike.
+                </p>
+              </div>
+            </li>
+
+            <li class="features-item">
+              <div class="item-icon">
+                <ion-icon name="water-outline"></ion-icon>
+              </div>
+
+              <div>
+                <h3 class="h4 item-title" id="feature2Title">Clean Water</h3>
+          <p class="item-text" id="feature2Text">
+            Ensuring access to pure water through eco-friendly innovations.
+          </p>
+              </div>
+            </li>
+
+            <li class="features-item">
+              <div class="item-icon">
+                <ion-icon name="leaf-outline"></ion-icon>
+              </div>
+
+              <div>
+                <h3 class="h4 item-title" id="feature3Title">Eco Balance</h3>
+                <p class="item-text" id="feature3Text">
+                  Promoting biodiversity and sustainable practices for a thriving planet.
+                </p>
+              </div>
+            </li>
+
+            <li class="features-item">
+              <div class="item-icon">
+                <ion-icon name="snow-outline"></ion-icon>
+              </div>
+
+              <div>
+                <h3 class="h4 item-title" id="feature4Title">Environment</h3>
+                <p class="item-text" id="feature4Text">
+                  Embracing renewable energy and conservation to safeguard our natural resources.
+                </p>
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+      <section class="section course" aria-label="course" id="course" data-section>
+        <div class="container">
+
+          <div class="title-wrapper">
+            <p class="section-subtitle" id="courseSubtitle">Global Humanitarian Aid Initiatives</p>
+            <h2 class="h2 section-title" id="courseTitle">Join the Effort for Peace, Recovery, and Rebuilding</h2>
+          </div>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="course-card">
+
+                <figure class="card-banner img-holder" style="--width: 350; --height: 300;">
+                  <img src="images/Screenshot 2025-03-02 at 17.39.04.png" width="350" height="300" loading="lazy"
+                    alt="Children Nutrition and Cooking" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <img class="card-price" src="images/Screenshot 2025-03-02 at 17.39.53.png">
+
+                  <p class="card-author">
+                    <a href="#" class="card-link">Country: <span class="span" id="courseCard1Country">Ukraine</span></a>
+                  </p>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title" id="courseCard1Title">Humanitarian Corridor for Displaced Families</a>
+                  </h3>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <time datetime="PT8H20M" id="courseCard1Description">
+                        Ensured safe passage and immediate emergency humanitarian assistance for families affected by conflict, providing secure transit routes and rapid medical response.
+                      </time>
+                    </li>
+                  </ul>
+
+                  <a href="https://www.icrc.org/en/document/how-humanitarian-corridors-work" class="btn" id="courseCard1Link" target="_blank">Read More</a>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="course-card">
+
+                <figure class="card-banner img-holder" style="--width: 350; --height: 300;">
+                  <img src="images/Screenshot 2025-03-02 at 17.49.06.png" width="350" height="300" loading="lazy"
+                    alt="Introduction to Food and Health." class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <img class="card-price" src="images/Screenshot 2025-03-02 at 17.49.25.png">
+
+                  <p class="card-author">
+                    <a href="#" class="card-link">Country: <span class="span" id="courseCard2Country">Turkey</span></a>
+                  </p>
+
+                  <h3 class="h3">
+                    <a href="https://www.unhcr.org/tr/en/emergency-response" target="_blank" class="card-title" id="courseCard2Title">Emergency Refugee Support Program</a>
+                  </h3>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <time datetime="PT1H30M" id="courseCard2Description">
+                        This program offers comprehensive assistance including secure shelter, nutritious food supplies, and essential medical care for displaced persons affected by regional conflicts.
+                      </time>
+                    </li>
+                  </ul>
+
+                  <a href="https://www.unhcr.org/tr/en/emergency-response" target="_blank" class="btn" id="courseCard2Link">Read More</a>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="course-card">
+
+                <figure class="card-banner img-holder" style="--width: 350; --height: 300;">
+                  <img src="images/Screenshot 2025-03-02 at 18.06.04.png" width="350" height="300" loading="lazy"
+                    alt="Nutrition and Lifestyle in Pregnancy" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <img class="card-price" src="images/Screenshot 2025-03-02 at 18.06.20.png">
+
+                  <p class="card-author">
+                    <a href="#" class="card-link">Country: <span class="span" id="courseCard3Country">Syria</span></a>
+                  </p>
+
+                  <h3 class="h3">
+                    <a href="https://www.icrc.org/sites/default/files/topic/file_plus_list/health_activities_leaflet_0.pdf" target="_blank" class="card-title" id="courseCard3Title">Mobile Medical Clinics for War Victims</a>
+                  </h3>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <time datetime="PT3H38M" id="courseCard3Description">
+                        Mobile medical clinics deliver on-site emergency healthcare and surgical support, providing immediate, life-saving care at disaster and conflict zones.
+                      </time>
+                    </li>
+
+                
+                  </ul>
+
+                   <a href="https://www.icrc.org/sites/default/files/topic/file_plus_list/health_activities_leaflet_0.pdf" target="_blank" class="btn" id="courseCard3Link">Read More</a>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="course-card">
+
+                <figure class="card-banner img-holder" style="--width: 350; --height: 300;">
+                  <img src="images/Screenshot 2025-03-02 at 18.12.39.png" width="350" height="300" loading="lazy"
+                    alt="Expertise on Fitness, Nutrition and Health" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <img class="card-price" src="images/Screenshot 2025-03-02 at 18.13.06.png">
+
+                  <p class="card-author">
+                    <a href="#" class="card-link">Country: <span class="span" id="courseCard4Country">Lebanon</span></a>
+                  </p>
+
+                  <h3 class="h3 card-title">
+                    <a href="https://bulgaria.representation.ec.europa.eu/novini-i-sbitiya/novini-0/es-predostavya-30-mln-evro-doplnitelna-khumanitarnata-pomosch-za-livan-2024-10-03_bg?utm_source=chatgpt.com" target="_blank" id="courseCard4Title">Reconstruction Assistance for War-Torn Communities</a>
+                  </h3>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <time datetime="PT2H16M" id="courseCard4Description">
+                        Support for rebuilding homes and local infrastructure, including schools and hospitals, to restore essential services and enhance community resilience.
+                      </time>
+                    </li>
+
+                  
+                  </ul>
+
+                  <a href="https://bulgaria.representation.ec.europa.eu/novini-i-sbitiya/novini-0/es-predostavya-30-mln-evro-doplnitelna-khumanitarnata-pomosch-za-livan-2024-10-03_bg?utm_source=chatgpt.com" target="_blank" class="btn" id="courseCard4Link">Read More</a>                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="course-card">
+
+                <figure class="card-banner img-holder" style="--width: 350; --height: 300;">
+                  <img src="images/Screenshot 2025-03-02 at 18.22.55.png" width="350" height="300" loading="lazy"
+                    alt="Hacking exercise for health new science of fitness" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <img class="card-price" src="images/Screenshot 2025-03-02 at 18.23.13.png">
+
+                  <p class="card-author">
+                    <a href="#" class="card-link">Country: <span class="span">Nigeria</span></a>
+                  </p>
+
+                  <h3 class="h3">
+                    <a href="https://www.undp.org/iraq/projects/building-resilience-through-employment-promotion" target="_blank" class="card-title" id="courseCard6Title">Economic Recovery & Job Creation Program</a>
+                  </h3>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <time datetime="PT6H12M" id="courseCard6Description">
+                        Empowering communities through vocational training and micro-loans to promote economic growth, stability, sustainable livelihoods, and social cohesion.
+                      </time>
+                    </li>
+
+                
+                  </ul>
+
+                  <a href="https://www.undp.org/iraq/projects/building-resilience-through-employment-promotion" target="_blank" class="btn" id="courseCard6Link">Read More</a>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="course-card">
+
+                <figure class="card-banner img-holder" style="--width: 350; --height: 300;">
+                  <img src="images/Screenshot 2025-03-02 at 18.30.06.png" width="350" height="300" loading="lazy"
+                    alt="Designing Your Personal Weight Loss Plan" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <img class="card-price" src="images/Screenshot 2025-03-02 at 18.30.26.png">
+
+                  <p class="card-author">
+                    <a href="#" class="card-link">Country: <span class="span">Afghanistan</span></a>
+                  </p>
+
+                  <h3 class="h3">
+                    <a href="https://api-peacebuilding.com/?utm_source=chatgpt.com" target="_blank" class="card-title" id="courseCard7Title">Community Reconciliation & Peacebuilding Initiative</a>
+                  </h3>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <time datetime="PT9H34M" id="courseCard7Description">
+                        Initiatives like women-led Traditional Dispute Resolution committees empower women to participate in resolving conflicts and promoting peace within their communities.
+                      </time>
+                    </li>
+
+                  </ul>
+
+                  <a href="https://www.undp.org/afghanistan/stories/how-women-led-traditional-dispute-resolution-committees-promote-peace-local-communities?utm_source=chatgpt.com" target="_blank" class="btn" id="courseCard7Link">Read More</a>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+      <section class="section cta" aria-label="cta">
+        <img src="images/Flixter__18_-removebg-preview.png" alt="" class="corner-icon-2">
+        <div class="container">
+
+          <figure class="cta-banner">
+            <img src="images/big.png" width="1056" height="1076" loading="lazy" alt="cta banner"
+              class="w-100">
+          </figure>
+
+          <div class="cta-content">
+
+            <p class="section-subtitle" id="ctaSubtitle">Discover Our Impact</p>
+            <h2 class="h2 section-title dark" id="ctaTitle">
+              Explore our initiatives, projects, and events that are shaping a greener, 
+              <span id="ctaTitleSpan">more peaceful world.</span>
+            </h2>
+
+
+            <a href="initiatives.html" class="btn btne" id="ctaBtn1">View Initiatives</a>
+            <a href="projects.html" class="btn btne" id="ctaBtn2">Learn About Our Projects</a>
+
+          </div>
+
+        </div>
+      </section>
+
+      <section class="section blog" aria-label="blog" id="blog" data-section>
+        <img src="images/Flixter__13_-removebg-preview.png" alt="" class="title-image-2">
+        <img src="images/Flixter__12_-removebg-preview.png" alt="" class="title-image-1">
+        <div class="container">
+
+          <div class="title-wrapper">
+            <p class="section-subtitle" id="blogSubtitle">Our Blog Post</p>
+      <h2 class="h2 section-title" id="blogTitle">Latest Article of Nutrition</h2>
+          </div>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="blog-card active">
+
+                <div class="wrapper">
+
+                  <time class="publish-date" datetime="2022-02-24">
+                    <span class="span" id="blogPost1Date">25</span> Feb
+                  </time>
+
+                  <div>
+
+                    <div class="card-author">
+                      <a href="#" class="card-link">
+                        By: <span class="span" id="blogPost1Author">Maddie Rife</span>
+                      </a>
+                    </div>
+
+                    <ul class="card-meta-list">
+                      <li class="card-meta-item">
+                        <p class="item-text" id="blogPost1Likes">87 Likes</p>
+                      </li>
+                      <li class="card-meta-item">
+                        <p class="item-text" id="blogPost1Share">58 Share</p>
+                      </li>
+                    </ul>
+
+                  </div>
+
+                </div>
+
+                <h3 class="h3">
+                  <a href="https://www.ngobg.info/bg/news/132742-%D0%BC%D0%B5%D0%B6%D0%B4%D1%83%D0%BD%D0%B0%D1%80%D0%BE%D0%B4%D0%BD%D0%BE-%D0%BA%D1%83%D0%BB%D0%B8%D0%BD%D0%B0%D1%80%D0%BD%D0%BE-%D1%81%D1%8A%D1%81%D1%82%D0%B5%D0%B7%D0%B0%D0%BD%D0%B8%D0%B5-%D0%B7%D0%B0-%D1%85%D0%BE%D1%80%D0%B0-%D1%81-%D1%83%D0%B2%D1%80%D0%B5%D0%B6%D0%B4%D0%B0%D0%BD%D0%B8%D1%8F-%D0%BD%D0%B0%D0%B1%D0%B8%D1%80%D0%B0.html" target="_blank" class="card-title" id="blogPost1Title">
+                    International culinary competition for people with disabilities is recruiting participants
+                  </a>
+                </h3>
+
+                <p class="card-text" id="blogPost1Text">
+                  The aim of the culinary competition is to show that people with disabilities can successfully cope with everyday activities when given the opportunity and the necessary support.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <div class="wrapper">
+
+                  <time class="publish-date" datetime="2022-02-24">
+                    <span class="span" id="blogPost2Date">20</span> March
+                  </time>
+
+                  <div>
+
+                    <div class="card-author">
+                      <a href="#" class="card-link">
+                        By: <span class="span" id="blogPost2Author">Maddie Rife</span>
+                      </a>
+                    </div>
+
+                    <ul class="card-meta-list">
+                      <li class="card-meta-item">
+                        <p class="item-text" id="blogPost2Likes">87 Likes</p>
+                      </li>
+                      <li class="card-meta-item">
+                        <p class="item-text" id="blogPost2Share">58 Share</p>
+                      </li>
+                    </ul>
+
+                  </div>
+
+                </div>
+
+                <h3 class="h3">
+                  <a href="https://www.ngobg.info/bg/news/132723-%D0%BC%D0%B5%D0%B6%D0%B4%D1%83%D0%BD%D0%B0%D1%80%D0%BE%D0%B4%D0%BD%D0%B0-%D0%BE%D0%BD%D0%BB%D0%B0%D0%B9%D0%BD-%D0%BA%D0%BE%D0%BD%D1%84%D0%B5%D1%80%D0%B5%D0%BD%D1%86%D0%B8%D1%8F-%D0%B5%D0%BA%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%87%D0%BD%D0%BE-%D1%83%D1%81%D1%82%D0%BE%D0%B9%D1%87%D0%B8%D0%B2%D0%B8-%D0%B4%D0%B5%D0%B9%D0%BD%D0%BE%D1%81%D1%82%D0%B8-%D0%BD%D0%B0.html" target="_blank" class="card-title" id="blogPost2Title">
+                    International Online Conference "Environmentally Sustainable Outdoor Activities for Youth"
+                  </a>
+                </h3>
+
+                <p class="card-text" id="blogPost2Text">
+                  Empower are organizers of the event dedicated to ecologically sustainable outdoor activities for young people who are facing various challenges.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <div class="wrapper">
+
+                  <time class="publish-date" datetime="2022-02-24">
+                    <span class="span" id="blogPost3Date">13</span> April
+                  </time>
+
+                  <div>
+
+                    <div class="card-author">
+                      <a href="#" class="card-link">
+                        By: <span class="span" id="blogPost3Author">Maddie Rife</span>
+                      </a>
+                    </div>
+
+                    <ul class="card-meta-list">
+                      <li class="card-meta-item">
+                        <p class="item-text" id="blogPost3Likes">87 Likes</p>
+                      </li>
+                      <li class="card-meta-item">
+                        <p class="item-text" id="blogPost3Share">58 Share</p>
+                      </li>
+                    </ul>
+
+                  </div>
+
+                </div>
+
+                <h3 class="h3">
+                  <a href="https://www.ngobg.info/bg/news/132627-xix-%D0%B8%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5-%D0%BD%D0%B0-%D0%BC%D0%B5%D0%B6%D0%B4%D1%83%D0%BD%D0%B0%D1%80%D0%BE%D0%B4%D0%B5%D0%BD-%D0%BA%D0%BE%D0%BD%D0%BA%D1%83%D1%80%D1%81-%D0%B7%D0%B0-%D0%B8%D0%B7%D0%BF%D1%8A%D0%BB%D0%BD%D0%B8%D1%82%D0%B5%D0%BB%D0%B8-%D0%BD%D0%B0-%D0%BF%D0%BE%D0%BF%D1%83%D0%BB%D1%8F%D1%80%D0%BD%D0%B0.html" target="_blank" class="card-title" id="blogPost3Title">
+                    XIX edition of the International Competition for Performers of a Popular Song "New Music"
+                  </a>
+                </h3>
+
+                <p class="card-text" id="blogPost3Text">
+                  The age of INDIVIDUAL PERFORMERS for all groups is determined by completed years on the date of the competition.
+                </p>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+      <section class="insta-post">
+
+        <ul class="insta-post-list">
+
+          <li class="insta-post-item">
+            <a href="#" class="insta-post-link">
+              <img src="images/Screenshot 2025-03-01 at 18.02.13.png" width="320" height="300" loading="lazy" alt="Lion"
+                class="img-cover">
+
+                <ion-icon name="earth-outline"></ion-icon>
+            </a>
+          </li>
+
+          <li class="insta-post-item">
+            <a href="#" class="insta-post-link">
+              <img src="images/Screenshot 2025-03-01 at 18.02.43.png" width="320" height="300" loading="lazy" alt="Deer"
+                class="img-cover">
+
+                <ion-icon name="earth-outline"></ion-icon>
+            </a>
+          </li>
+
+          <li class="insta-post-item">
+            <a href="#" class="insta-post-link">
+              <img src="images/Screenshot 2025-03-01 at 18.03.05.png" width="320" height="300" loading="lazy" alt="Wild Bear"
+                class="img-cover">
+
+                <ion-icon name="earth-outline"></ion-icon>
+            </a>
+          </li>
+
+          <li class="insta-post-item">
+            <a href="#" class="insta-post-link">
+              <img src="images/Screenshot 2025-03-01 at 18.03.15.png" width="320" height="300" loading="lazy" alt="Deer"
+                class="img-cover">
+
+                <ion-icon name="earth-outline"></ion-icon>
+            </a>
+          </li>
+
+          <li class="insta-post-item">
+            <a href="#" class="insta-post-link">
+              <img src="images/Screenshot 2025-03-01 at 18.05.39.png" width="320" height="300" loading="lazy" alt="Horses"
+                class="img-cover">
+
+                <ion-icon name="earth-outline"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </section>
+
+      
+    </article>
+</main>
+<footer class="footer">
+  <img src="images/Flixter__24_-removebg-preview.png" alt="Decorative Background" class="footer-bg-image">
+  <img src="images/Flixter__24_-removebg-preview.png" alt="Decorative Background" class="footer-bg-image-1">
+
+  <div class="footer-top section">
+    <div class="container">
+
+      <div class="footer-brand">
+
+        <a href="#" class="logo">
+          <img src="images/Flixter (5).svg" alt="Peace Planet Logo" width="50" height="50">
+        </a>
+
+        <p class="footer-text" id="footerText">
+          Join us in making the world a peaceful place. Together, we can create a sustainable future for all. Let's take action today for a better tomorrow.
+        </p>
+
+        <form action="" class="newsletter-form">
+          <input type="email" name="email_address" placeholder="Enter your email" required class="email-field">
+
+          <button type="submit" class="form-btn">
+           <a href="form.html"><ion-icon name="paper-plane" aria-hidden="true"></ion-icon></a>
+          </button>
+        </form>
+
+      </div>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="footer-list-title" id="footerCategoryTitle">Category</p>
+        </li>
+
+        <li>
+          <a href="index.html" class="footer-link" id="footerHomeLink">Home page</a>
+        </li>
+
+        <li>
+          <a href="about.html" class="footer-link" id="footerAboutLink">About page</a>
+        </li>
+
+        <li>
+          <a href="initsiative.html" class="footer-link" id="footerInitsiativeLink">Initsiative page</a>
+        </li>
+
+        <li>
+          <a href="next.html" class="footer-link" id="footerProjectLink">Project page</a>
+        </li>
+
+        <li>
+          <a href="event.html" class="footer-link" id="footerEventLink">Event page</a>
+        </li>
+
+
+      </ul>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="footer-list-title" id="footerInformationTitle">Information</p>
+        </li>
+
+        <li>
+          <a href="info.html" target="_blank" class="footer-link" id="footerAdditionalInfoLink">Additional information</a>
+        </li>
+
+        <li>
+          <a href="form.html" target="_blank" class="footer-link" id="footerFormLink">Form</a>
+        </li>
+
+        <li>
+          <a href="quiz.html" target="_blank" class="footer-link" id="footerQuizLink">Quiz</a>
+        </li>
+        <li>
+          <a href="site-map.html" target="_blank" class="footer-link" id="footerSitemapLink">Website map</a>
+        </li>
+
+      </ul>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="footer-list-title" id="footerContactTitle">Contact Me</p>
+        </li>
+
+        <li class="footer-item">
+          <ion-icon name="location" aria-hidden="true"></ion-icon>
+
+          <address class="contact-link address" id="footerAddress">
+            ul. Mencha Karnicheva № 23
+          </address>
+        </li>
+
+        <li class="footer-item">
+          <ion-icon name="call" aria-hidden="true"></ion-icon>
+
+          <a href="tel:+7894631546876" class="contact-link">+359 76 77 450</a>
+        </li>
+
+        <li class="footer-item">
+          <ion-icon name="mail" aria-hidden="true"></ion-icon>
+
+          <a href="mailto:info@hoolix.com" class="contact-link">ahg_2020g@pgiblg.com</a>
+        </li>
+
+        <li class="footer-item">
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-pinterest"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+        </li>
+
+      </ul>
+
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="container">
+
+      <p class="copyright" id="footerCopyright">
+        &copy; 2025 Peaceful Planet | Created for educational purposes by <a href="#" class="copyright-link">Angela Grozdanova</a>
+      </p>
+
+      <ul class="footer-bottom-list">
+
+        <li>
+          <a href="#" class="footer-bottom-link" id="footerPrivacyPolicyLink">Privacy Policy</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-bottom-link" id="footerTermsLink">Terms of Use</a>
+        </li>
+
+      </ul>
+
+    </div>
+  </div>
+
+</footer>
+
+<script src="event.js"></script>
+<script src="./assets/js/script.js"></script>
+
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

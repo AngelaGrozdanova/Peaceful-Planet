@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Peaceful Planet - Form</title>
+    <link rel="shortcut icon" href="images/Flixter.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="form.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>Send us a Message</header>
+      <form action="https://formspree.io/f/moveaavo" method="POST">
+        <div class="dbl-field">
+          <div class="field">
+            <input type="text" name="name" placeholder="Enter your name" required />
+            <i class="fas fa-user"></i>
+          </div>
+          <div class="field">
+            <input type="email" name="email" placeholder="Enter your email" required />
+            <i class="fas fa-envelope"></i>
+          </div>
+        </div>
+        <div class="dbl-field">
+          <div class="field">
+            <input type="text" name="phone" placeholder="Enter your phone" />
+            <i class="fas fa-phone-alt"></i>
+          </div>
+          <div class="field">
+            <input type="text" name="location" placeholder="Enter your location" required />
+            <i class="fas fa-map-marker-alt"></i>
+          </div>
+        </div>
+        <div class="message">
+          <textarea name="message" placeholder="Write your message" required></textarea>
+          <i class="fas fa-pencil-alt"></i>
+        </div>
+        <div class="button-area">
+          <button type="submit">Send Message</button>
+          <span></span>
+        </div>
+      </form>
+    </div>
+    
+    </div>
+
+    <script>
+      // Използваме pageshow събитието, за да засечем връщането към страницата
+      window.addEventListener('pageshow', function(event) {
+        if (event.persisted) {
+          document.querySelector("form").reset();
+        }
+      });
+    
+      // Или може да използвате и onload, за да нулирате формата:
+      window.addEventListener('load', function() {
+        document.querySelector("form").reset();
+      });
+    </script>
+  </body>
+</html>

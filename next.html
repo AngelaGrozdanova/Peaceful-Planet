@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Peaseful Planet</title>
+
+  <link rel="shortcut icon" href="images/Flixter.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="next.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Roboto:wght@300;400;500;700&family=Oswald:wght@600&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <!-- <h1> -->
+        <a href="#" class="logo">
+          <img src="images/Flixter (5).svg" alt="Peace Planet Logo" width="50" height="50">
+        </a>
+      <!-- </h1> -->
+      
+
+      <select name="language" class="lang-switch" onchange="changeLanguage(this.value)">
+        <option value="english">English</option>
+        <option value="bulgarian">Български</option>
+      </select>
+
+      <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
+
+        <a href="#" class="logo" id="navLogo">Peace Planet</a>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="index.html" class="navbar-link" data-nav-link>
+              <span id="navHome">Home</span>
+
+              <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="about.html" class="navbar-link" data-nav-link>
+              <span id="navAbout">About</span>
+
+              <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="initsiative.html" class="navbar-link" data-nav-link>
+              <span id="navInitsiative">Initsiative</span>
+
+              <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="next.html" class="navbar-link" data-nav-link>
+              <span id="navProject">Project</span>
+
+              <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="event.html" class="navbar-link" data-nav-link>
+              <span id="navEvent">Event</span>
+
+              <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <div class="header-action">
+
+          <a href="form.html" target="_blank" class="btn btn-primary" id="btnLogin">Form</a>
+
+          <a href="quiz.html" target="_blank" class="btn btn-primary" id="btnSearch">Quiz</a>
+       
+      </div>
+
+    </div>
+  </header>
+
+
+  <main>
+    <article>
+      <section class="hero" id="home">
+        <div class="container">
+
+          <p class="section-subtitle">
+            <img src="./assets/images/subtitle-img-white.png" width="32" height="7">
+
+            <span id="heroSubtitle">Welcome to Peace Planet</span>
+          </p>
+
+          <h2 class="h1 hero-title" id="heroTitle">
+            Love, Protect, and Restore Our <strong>Peaceful Planet</strong>
+          </h2>
+
+          <p class="hero-text" id="heroText">
+            Join us on a journey through exciting initiatives, personal stories, events, and projects that inspire change.
+          </p>
+
+          <div class="buttons">
+            <a href="#about">
+              <button class="btn btn-primary">
+                <span id="btnExplore">Explore</span>
+                <ion-icon name="leaf-outline"></ion-icon>
+              </button>
+            </a>
+
+            <a href="next.html">
+          <button class="btn btn-primary">
+            <ion-icon name="play-outline"></ion-icon>
+            <span id="btnWatchStory">Watch Our Story</span>
+          </button></a>
+        </div>
+        </div>
+
+        <div class="hero-image">
+          <img src="images/Flixter__3_-removebg-preview.png">
+        </div>
+
+        </div>
+      </section>
+
+      <section class="section features">
+        <div class="container">
+
+          <ul class="features-list">
+
+            <li class="features-item">
+              <div class="item-icon">
+                <ion-icon name="shield-checkmark-outline"></ion-icon>
+              </div>
+
+              <div>
+                <h3 class="h4 item-title" id="feature1Title">Safe Shelter</h3>
+                <p class="item-text" id="feature1Text">
+                  Providing secure, sustainable housing for communities and wildlife alike.
+                </p>
+              </div>
+            </li>
+
+            <li class="features-item">
+              <div class="item-icon">
+                <ion-icon name="water-outline"></ion-icon>
+              </div>
+
+              <div>
+                <h3 class="h4 item-title" id="feature2Title">Clean Water</h3>
+          <p class="item-text" id="feature2Text">
+            Ensuring access to pure water through eco-friendly innovations.
+          </p>
+              </div>
+            </li>
+
+            <li class="features-item">
+              <div class="item-icon">
+                <ion-icon name="leaf-outline"></ion-icon>
+              </div>
+
+              <div>
+                <h3 class="h4 item-title" id="feature3Title">Eco Balance</h3>
+                <p class="item-text" id="feature3Text">
+                  Promoting biodiversity and sustainable practices for a thriving planet.
+                </p>
+              </div>
+            </li>
+
+            <li class="features-item">
+              <div class="item-icon">
+                <ion-icon name="snow-outline"></ion-icon>
+              </div>
+
+              <div>
+                <h3 class="h4 item-title" id="feature4Title">Environment</h3>
+                <p class="item-text" id="feature4Text">
+                  Embracing renewable energy and conservation to safeguard our natural resources.
+                </p>
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+      <section class="section about" id="about" aria-label="about">
+        <img src="images/Flixter__41_-removebg-preview.png" alt="" class="green">
+        <img src="images/Flixter__41_-removebg-preview.png" alt="" class="green-2">
+        <img src="images/leav.png" alt="" class="leav">
+        <img src="images/Flixter__36_-removebg-preview.png" alt="" class="wild">
+        <img src="images/Flixter__13_-removebg-preview.png" class="title-image-2">
+        <img src="images/Flixter__18_-removebg-preview.png" alt="" class="corner-icon-2">
+        <div class="container">
+
+          <div class="about-banner has-after">
+            <img src="images/safe.png" width="660" height="648" loading="lazy" alt="about banner"
+              class="w-1000">
+          </div>
+
+          <div class="about-content">
+
+            <p class="section-subtitle" id="aboutSubtitle">Our Projects</p>
+
+            <h2 class="h2 section-title" id="aboutTitle">Explore Our Sustainable Projects</h2>
+      
+            <p class="section-text" id="aboutText1">
+              Our projects focus on creating harmony between humanity and nature. We work towards a sustainable future with initiatives that promote environmental protection and community collaboration.
+            </p>
+      
+            <p class="section-text" id="aboutText2">
+              We have undertaken numerous projects globally, ranging from eco-friendly infrastructure to renewable energy solutions. Together, we aim to protect the planet for future generations.
+            </p>
+
+            <div class="wrapper">
+
+              <div class="one-line">
+
+              <div class="about-coach">
+
+                <figure class="coach-avatar">
+                  <img src="images/heart.png" width="85" height="85" loading="lazy" alt="Trainer">
+                </figure>
+
+                <div>
+                  <h3 class="h3 coach-name" id="slogan1">Choose peace!</h3>
+                  <!-- <p class="coach-title">Our Coach</p> -->
+                </div>
+
+              </div>
+
+              <div class="about-coach">
+
+                <figure class="coach-avatar">
+                  <img src="images/plants.png" width="85" height="85" loading="lazy" alt="Trainer">
+                </figure>
+
+                <div>
+                  <h3 class="h3 coach-name" id="slogan2">End conflict!</h3>
+
+                  <!-- <p class="coach-title">Our Coach</p> -->
+                </div>
+
+              </div>
+            </div>
+
+            <a href="#" class="btn btn-block" id="aboutBtn">View Projects</a>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+      <section class="section video" aria-label="video">
+        <div class="container">
+
+          <div class="video-card has-before has-bg-image">
+            <video autoplay loop muted playsinline class="video-bg">
+              <source src="images/Nature copy.mp4" type="video/mp4" />
+
+            </video>
+
+            <!-- <h2 class="h2 card-title">Explore Fitness Life</h2> -->
+
+            <!-- <button class="play-btn" aria-label="play video">
+              <ion-icon name="play-sharp" aria-hidden="true"></ion-icon>
+            </button> -->
+
+            <!-- <a href="#" class="btn-link has-before">Watch More</a> -->
+
+          </div>
+
+        </div>
+      </section>
+
+      <section class="section cta" aria-label="cta">
+        <img src="images/Flixter__30_-removebg-preview.png" alt="" class="up">
+        <img src="images/Flixter__18_-removebg-preview.png" alt="" class="dot">
+        <div class="container">
+  
+          <figure class="cta-banner">
+            <img src="images/Flixter__37_-removebg-preview.png" width="1056" height="1076" loading="lazy" alt="cta banner"
+              class="w-100">
+          </figure>
+  
+          <div class="cta-content">
+  
+            <p class="section-subtitle" id="ctaSubtitle">Get Involved</p>
+
+            <h2 class="h2 section-title dark" id="ctaTitle">
+              Join Our Collective Efforts in Creating a Brighter More Sustainable
+              <span id="ctaTitleSpan">Peaceful Future for All</span>
+            </h2>
+      
+            <a href="initsiative.html" class="btn btne" id="ctaBtn1">Explore our initiatives</a>
+      
+            <a href="form.html" class="btn btne" id="ctaBtn2">Take Action and Spread Awareness</a>
+  
+          </div>
+  
+        </div>
+      </section>
+
+      <section class="gallery">
+        <img src="tree.png" alt="" class="tree">
+        <img src="Flixter__18_-removebg-preview.png" alt="" class="dots">
+        <div class="title-wrapper">
+          <p class="section-subtitle" id="gallerySubtitle">Our Blog Post</p>
+          <h2 class="h2 section-title" id="galleryTitle">Latest Article of Nutrition</h2>
+        </div>
+
+        <ul class="images">
+            <li class="img"><img src="images/Screenshot 2025-03-01 at 15.06.41.png" alt="img"></li>
+            <li class="img"><img src="images/Screenshot 2025-03-01 at 15.07.38.png" alt="img"></li>
+            <li class="img"><img src="images/Screenshot 2025-03-01 at 15.11.56.png" alt="img"></li>
+            <li class="img"><img src="images/Screenshot 2025-03-01 at 15.12.49.png" alt="img"></li>
+            <li class="img"><img src="images/Screenshot 2025-03-01 at 15.35.22.png" alt="img"></li>
+            <li class="img"><img src="images/Screenshot 2025-03-01 at 15.13.12.png" alt="img"></li>
+            <li class="img"><img src="images/Screenshot 2025-03-01 at 15.14.05.png" alt="img"></li>
+            <li class="img"><img src="images/Screenshot 2025-03-01 at 15.14.29.png" alt="img"></li>
+            <li class="img"><img src="images/Screenshot 2025-03-01 at 15.17.33.png" alt="img"></li>
+        </ul>
+    </section>
+    
+    <div class="lightbox">
+        <div class="wrapper">
+            <header>
+                <div class="details">
+                    <i class="fa-solid fa-image"></i>
+                    <span>Preview</span>
+                </div>
+                <div class="buttons">
+                  <span class="close-icon" aria-label="Close lightbox">×</span>
+                </div>
+            </header>
+            <div class="preview-img">
+                <img src="" alt="Preview Image">
+            </div>
+        </div>
+    </div>
+
+      
+      </article>
+  </main>
+
+
+  <footer class="footer">
+    <img src="images/Flixter__24_-removebg-preview.png" alt="Decorative Background" class="footer-bg-image">
+    <img src="images/Flixter__24_-removebg-preview.png" alt="Decorative Background" class="footer-bg-image-1">
+  
+    <div class="footer-top section">
+      <div class="container">
+  
+        <div class="footer-brand">
+  
+          <a href="#" class="logo">
+            <img src="images/Flixter (5).svg" alt="Peace Planet Logo" width="50" height="50">
+          </a>
+  
+          <p class="footer-text" id="footerText">
+            Join us in making the world a peaceful place. Together, we can create a sustainable future for all. Let's take action today for a better tomorrow.
+          </p>
+  
+          <form action="" class="newsletter-form">
+            <input type="email" name="email_address" placeholder="Enter your email" required class="email-field">
+  
+            <button type="submit" class="form-btn">
+             <a href="form.html"><ion-icon name="paper-plane" aria-hidden="true"></ion-icon></a>
+            </button>
+          </form>
+  
+        </div>
+  
+        <ul class="footer-list">
+  
+          <li>
+            <p class="footer-list-title" id="footerCategoryTitle">Category</p>
+          </li>
+  
+          <li>
+            <a href="index.html" class="footer-link" id="footerHomeLink">Home page</a>
+          </li>
+  
+          <li>
+            <a href="about.html" class="footer-link" id="footerAboutLink">About page</a>
+          </li>
+  
+          <li>
+            <a href="initsiative.html" class="footer-link" id="footerInitsiativeLink">Initsiative page</a>
+          </li>
+  
+          <li>
+            <a href="next.html" class="footer-link" id="footerProjectLink">Project page</a>
+          </li>
+  
+          <li>
+            <a href="event.html" class="footer-link" id="footerEventLink">Event page</a>
+          </li>
+  
+  
+        </ul>
+  
+        <ul class="footer-list">
+  
+          <li>
+            <p class="footer-list-title" id="footerInformationTitle">Information</p>
+          </li>
+  
+          <li>
+            <a href="info.html" target="_blank" class="footer-link" id="footerAdditionalInfoLink">Additional information</a>
+          </li>
+  
+          <li>
+            <a href="form.html" target="_blank" class="footer-link" id="footerFormLink">Form</a>
+          </li>
+  
+          <li>
+            <a href="quiz.html" target="_blank" class="footer-link" id="footerQuizLink">Quiz</a>
+          </li>
+          <li>
+            <a href="site-map.html" target="_blank" class="footer-link" id="footerSitemapLink">Website map</a>
+          </li>
+  
+        </ul>
+  
+        <ul class="footer-list">
+  
+          <li>
+            <p class="footer-list-title" id="footerContactTitle">Contact Me</p>
+          </li>
+  
+          <li class="footer-item">
+            <ion-icon name="location" aria-hidden="true"></ion-icon>
+  
+            <address class="contact-link address" id="footerAddress">
+              ul. Mencha Karnicheva № 23
+            </address>
+          </li>
+  
+          <li class="footer-item">
+            <ion-icon name="call" aria-hidden="true"></ion-icon>
+  
+            <a href="tel:+7894631546876" class="contact-link">+359 76 77 450</a>
+          </li>
+  
+          <li class="footer-item">
+            <ion-icon name="mail" aria-hidden="true"></ion-icon>
+  
+            <a href="mailto:info@hoolix.com" class="contact-link">ahg_2020g@pgiblg.com</a>
+          </li>
+  
+          <li class="footer-item">
+            <ul class="social-list">
+  
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+  
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+  
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+  
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-pinterest"></ion-icon>
+                </a>
+              </li>
+  
+            </ul>
+          </li>
+  
+        </ul>
+  
+      </div>
+    </div>
+  
+    <div class="footer-bottom">
+      <div class="container">
+  
+        <p class="copyright" id="footerCopyright">
+          &copy; 2025 Peaceful Planet | Created for educational purposes by <a href="#" class="copyright-link">Angela Grozdanova</a>
+        </p>
+  
+        <ul class="footer-bottom-list">
+  
+          <li>
+            <a href="#" class="footer-bottom-link" id="footerPrivacyPolicyLink">Privacy Policy</a>
+          </li>
+  
+          <li>
+            <a href="#" class="footer-bottom-link" id="footerTermsLink">Terms of Use</a>
+          </li>
+  
+        </ul>
+  
+      </div>
+    </div>
+  
+  </footer>
+      <script src="project.js"></script>
+      <script src="./assets/js/script.js"></script>
+
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

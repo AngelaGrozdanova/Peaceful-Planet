@@ -1,0 +1,1129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Peaseful Planet</title>
+
+  <link rel="shortcut icon" href="images/Flixter.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="initsiative.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Roboto:wght@300;400;500;700&family=Oswald:wght@600&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <!-- <h1> -->
+        <a href="#" class="logo">
+          <img src="images/Flixter (5).svg" alt="Peace Planet Logo" width="50" height="50">
+        </a>
+      <!-- </h1> -->
+      
+
+      <select name="language" class="lang-switch" onchange="changeLanguage(this.value)">
+        <option value="english">English</option>
+        <option value="bulgarian">Български</option>
+      </select>
+
+      <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
+
+        <a href="#" class="logo" id="navLogo">Peace Planet</a>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="index.html" class="navbar-link" data-nav-link>
+              <span id="navHome">Home</span>
+
+              <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="about.html" class="navbar-link" data-nav-link>
+              <span id="navAbout">About</span>
+
+              <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="initsiative.html" class="navbar-link" data-nav-link>
+              <span id="navInitsiative">Initsiative</span>
+
+              <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="next.html" class="navbar-link" data-nav-link>
+              <span id="navProject">Project</span>
+
+              <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="event.html" class="navbar-link" data-nav-link>
+              <span id="navEvent">Event</span>
+
+              <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <div class="header-action">
+
+          <a href="form.html" target="_blank" class="btn btn-primary" id="btnLogin">Form</a>
+
+          <a href="quiz.html" target="_blank" class="btn btn-primary" id="btnSearch">Quiz</a>
+       
+      </div>
+
+    </div>
+  </header>
+
+  <main>
+    <article>
+      <section class="hero" id="home">
+        <div class="container">
+
+          <p class="section-subtitle">
+            <img src="./assets/images/subtitle-img-white.png" width="32" height="7">
+
+            <span id="heroSubtitle">Welcome to Peace Planet</span>
+          </p>
+
+          <h2 class="h1 hero-title" id="heroTitle">
+            Love, Protect, and Restore Our <strong>Peaceful Planet</strong>
+          </h2>
+
+          <p class="hero-text" id="heroText">
+            Join us on a journey through exciting initiatives, personal stories, events, and projects that inspire change.
+          </p>
+
+          <div class="buttons">
+            <a href="#about">
+              <button class="btn btn-primary">
+                <span id="btnExplore">Explore</span>
+                <ion-icon name="leaf-outline"></ion-icon>
+              </button>
+            </a>
+
+            <a href="next.html">
+          <button class="btn btn-primary">
+            <ion-icon name="play-outline"></ion-icon>
+            <span id="btnWatchStory">Watch Our Story</span>
+          </button></a>
+        </div>
+        </div>
+
+        <div class="hero-image">
+          <img src="images/Flixter__3_-removebg-preview.png">
+        </div>
+
+        </div>
+      </section>
+
+      <section class="section features">
+        <div class="container">
+
+          <ul class="features-list">
+
+            <li class="features-item">
+              <div class="item-icon">
+                <ion-icon name="shield-checkmark-outline"></ion-icon>
+              </div>
+
+              <div>
+                <h3 class="h4 item-title" id="feature1Title">Safe Shelter</h3>
+                <p class="item-text" id="feature1Text">
+                  Providing secure, sustainable housing for communities and wildlife alike.
+                </p>
+              </div>
+            </li>
+
+            <li class="features-item">
+              <div class="item-icon">
+                <ion-icon name="water-outline"></ion-icon>
+              </div>
+
+              <div>
+                <h3 class="h4 item-title" id="feature2Title">Clean Water</h3>
+          <p class="item-text" id="feature2Text">
+            Ensuring access to pure water through eco-friendly innovations.
+          </p>
+              </div>
+            </li>
+
+            <li class="features-item">
+              <div class="item-icon">
+                <ion-icon name="leaf-outline"></ion-icon>
+              </div>
+
+              <div>
+                <h3 class="h4 item-title" id="feature3Title">Eco Balance</h3>
+                <p class="item-text" id="feature3Text">
+                  Promoting biodiversity and sustainable practices for a thriving planet.
+                </p>
+              </div>
+            </li>
+
+            <li class="features-item">
+              <div class="item-icon">
+                <ion-icon name="snow-outline"></ion-icon>
+              </div>
+
+              <div>
+                <h3 class="h4 item-title" id="feature4Title">Environment</h3>
+                <p class="item-text" id="feature4Text">
+                  Embracing renewable energy and conservation to safeguard our natural resources.
+                </p>
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+      <section class="about" id="about">
+        <div class="container">
+
+          <figure class="about-banner">
+            <img src="images/arms.png" class="green-down">
+            <img src="images/Flixter__41_-removebg-preview.png" class="green-up">
+            <img src="images/Flixter__41_-removebg-preview.png" class="green">
+            <img src="images/leav.png" alt="" class="leav">
+            <img src="images/Flixter__36_-removebg-preview.png" alt="" class="wild">
+
+            <!-- <img src="./assets/images/about-banner-2.jpg" alt="House interior" class="abs-img"> -->
+          </figure>
+
+          <div class="about-content">
+
+            <p class="section-subtitle-me" id="mission-title">Our Mission</p>
+            <h2 class="h2 section-title" id="about-title">Creating a Peaceful and Sustainable Future</h2>
+
+            <p class="about-text" id="about-text">
+                Our initiatives aim to balance humanity and nature, promoting peace, environmental protection, and global collaboration.
+            </p>
+
+            <ul class="about-list">
+
+              <li class="about-item">
+                <div class="about-item-icon">
+                  <ion-icon name="cloudy-night-outline"></ion-icon>
+                </div>
+
+                <p class="about-item-text" id="eco-friendly">Eco-Friendly Initiatives</p>
+              </li>
+
+              <li class="about-item">
+                <div class="about-item-icon">
+                  <ion-icon name="leaf-outline"></ion-icon>
+                </div>
+
+                <p class="about-item-text" id="community-empowerment">Community Empowerment</p>
+              </li>
+
+              <li class="about-item">
+                <div class="about-item-icon">
+                  <ion-icon name="earth-outline"></ion-icon>
+                </div>
+
+                <p class="about-item-text" id="global-cooperation">Global Cooperation</p>
+              </li>
+
+              <li class="about-item">
+                <div class="about-item-icon">
+                  <ion-icon name="shield-checkmark-outline"></ion-icon>
+                </div>
+
+                <p class="about-item-text" id="sustainable-security">Sustainable Security</p>
+              </li>
+
+            </ul>
+
+            <p class="callout" id="callout">
+              "Together, we can build a peaceful, sustainable world where every community thrives and nature flourishes."
+          </p>
+
+          <a href="#service" class="btn" id="explore-button">Explore Initiatives</a>
+
+
+          </div>
+
+        </div>
+      </section>
+
+      <section class="service" id="service">
+        <img src="images/Flixter__26_-removebg-preview.png" alt="" class="leaves">
+        <img src="images/leab.png" alt="" class="leab">
+        <div class="container">
+
+          <p class="section-subtitle focus" id="services-subtitle">- Our Services -</p>
+          <h2 class="h2 section-title focus" id="services-title">Our Main Focus</h2>
+
+          <ul class="service-list">
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="images/plant.png" alt="Service icon">
+                </div>
+
+                <h3 class="h3 card-title">
+                  <a href="#" id="eco-projects">Eco-Friendly Projects</a>
+              </h3>
+
+              <p class="card-text" id="eco-description">
+                  Join our efforts in promoting sustainable living through green initiatives that benefit both people, communities, and nature.
+              </p>
+
+              <a href="#" class="card-link" id="eco-learn-more">
+                <span>Peaceful Planet</span>
+                <ion-icon name="earth-outline"></ion-icon>
+            </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="images/world.png" alt="Service icon">
+                </div>
+
+                <h3 class="h3 card-title">
+                  <a href="#" id="peace-collaborations">Peaceful Collaborations</a>
+              </h3>
+
+              <p class="card-text" id="peace-description">
+                  Discover global campaigns and events that foster collaboration and peace among communities worldwide.
+              </p>
+
+              <a href="#" class="card-link" id="peace-get-involved">
+                <span>Peaceful Planet</span>
+                <ion-icon name="earth-outline"></ion-icon>
+              </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="images/walking.png" alt="Service icon">
+                </div>
+
+                <h3 class="h3 card-title">
+                  <a href="#" id="educational-outreach">Educational Outreach</a>
+              </h3>
+
+              <p class="card-text" id="educational-description">
+                  Participate in our workshops and educational programs that promote environmental awareness and global unity.
+              </p>
+
+              <a href="#" class="card-link" id="educational-get-educated">
+                <span>Peaceful Planet</span>
+                <ion-icon name="earth-outline"></ion-icon>
+              </a>
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+      <section class="property" id="property">
+        <img src="images/leavess.png" alt="" class="dots">
+        <img src="images/leavess-2.png" alt="" class="dots-2">
+        <div class="container">
+
+          <p class="section-subtitle greene" id="property-subtitle">Peace Initiatives</p>
+
+          <h2 class="h2 section-title greene" id="property-title">Featured Peace Initiatives</h2>
+
+          <ul class="property-list has-scrollbar">
+
+            <li>
+              <div class="property-card">
+
+                <figure class="card-banner">
+
+                  <a href="#">
+                    <img src="images/Screenshot 2025-03-03 at 10.14.17.png" class="w-100">
+                  </a>
+
+                  <div class="card-badge green">Initiative</div>
+
+                  <div class="banner-actions">
+
+                    <button class="banner-actions-btn">
+                      <ion-icon name="location"></ion-icon>
+
+                      <address>France</address>
+                    </button>
+
+                  </div>
+
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-price">
+                    <strong>Diplomacy</strong>
+                  </div>
+
+                  <h3 class="h3 card-title">
+                    <a href="https://www.diplomatie.gouv.fr/en/french-foreign-policy/france-and-the-united-nations/french-proposals-for-the-new-agenda-for-peace/?utm_source=chatgpt.com" target="_blank" id="initiative-title-1">
+                      France's New Agenda for Peace
+                    </a>
+                  </h3>
+
+                  <p class="card-text" id="initiative-description-1">
+                    France proposed 20 measures to bolster international peace and security, focusing on strengthening the UN's role and preventing conflicts.
+                  </p>
+                  <ul class="card-list">
+
+                    <li class="card-item">
+                      <strong>Conflict Prevention</strong>
+
+                      <ion-icon name="hand-left-outline"></ion-icon>
+
+                      <!-- <span>Bedrooms</span> -->
+                    </li>
+
+                    <li class="card-item">
+                      <strong>Global Cooperation</strong>
+
+                      <ion-icon name="footsteps-outline"></ion-icon>
+
+                      <!-- <span>Bathrooms</span> -->
+                    </li>
+
+                 
+
+                  </ul>
+
+                </div>
+
+                <div class="card-footer">
+
+                  <div class="card-author">
+
+                    <figure class="author-avatar">
+                      <img src="images/Screenshot 2025-03-03 at 10.14.39.png" class="w-100">
+                    </figure>
+
+                    <div>
+                      <p class="author-name">
+                        <a href="#">French Diplomat</a>
+                      </p>
+
+                      <p class="author-title">Government & NGO</p>
+                    </div>
+
+                  </div>
+
+                  <div class="card-footer-actions">
+
+                    <button class="card-footer-actions-btn">
+                      <ion-icon name="resize-outline"></ion-icon>
+                    </button>
+
+                    <button class="card-footer-actions-btn">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+
+                    <button class="card-footer-actions-btn">
+                      <ion-icon name="add-circle-outline"></ion-icon>
+                    </button>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="property-card">
+
+                <figure class="card-banner">
+
+                  <a href="#">
+                    <img src="images/Screenshot 2025-03-03 at 10.21.53.png" alt="Modern Apartments" class="w-100">
+                  </a>
+
+                  <div class="card-badge orange">Initiative</div>
+
+                  <div class="banner-actions">
+
+                    <button class="banner-actions-btn">
+                      <ion-icon name="location"></ion-icon>
+
+                      <address>USA</address>
+                    </button>
+
+                  </div>
+
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-price">
+                    <strong>Coalition</strong>
+                  </div>
+
+                  <h3 class="h3 card-title">
+                    <a href="https://www.ft.com/content/603ba62c-73b2-4e14-846d-e3825c79bf56?utm_source=chatgpt.com" target="_blank" id="initiative-title-2">
+                      US Coalition for Ukraine Peacee
+                    </a>
+                  </h3>
+
+                  <p class="card-text" id="initiative-description-2">
+                    The USA, alongside allies, is leading a coalition to support peace efforts in Ukraine, proposing a one-month truce and economic aid.
+                  </p>
+
+                  <ul class="card-list">
+
+                    <li class="card-item">
+                      <strong>Economic Support</strong>
+
+                      <ion-icon name="bulb-outline"></ion-icon>
+
+                      <!-- <span>Bedrooms</span> -->
+                    </li>
+
+                    <li class="card-item">
+                      <strong>Military Aid</strong>
+
+                      <ion-icon name="people-outline"></ion-icon>
+
+                      <!-- <span>Bathrooms</span> -->
+                    </li>
+
+                  </ul>
+
+                </div>
+
+                <div class="card-footer">
+
+                  <div class="card-author">
+
+                    <figure class="author-avatar">
+                      <img src="images/Screenshot 2025-03-03 at 10.22.13.png" alt="William Seklo" class="w-100">
+                    </figure>
+
+                    <div>
+                      <p class="author-name"><a href="#">US Diplomat</a></p>
+                      <p class="author-title">Government Official</p>      
+                    </div>
+
+                  </div>
+
+                  <div class="card-footer-actions">
+
+                    <button class="card-footer-actions-btn">
+                      <ion-icon name="resize-outline"></ion-icon>
+                    </button>
+
+                    <button class="card-footer-actions-btn">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+
+                    <button class="card-footer-actions-btn">
+                      <ion-icon name="add-circle-outline"></ion-icon>
+                    </button>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="property-card">
+
+                <figure class="card-banner">
+
+                  <a href="#">
+                    <img src="images/Screenshot 2025-03-03 at 10.27.06.png" class="w-100">
+                  </a>
+
+                  <div class="card-badge green">Initiative</div>
+
+                  <div class="banner-actions">
+
+                    <button class="banner-actions-btn">
+                      <ion-icon name="location"></ion-icon>
+
+                      <address>Argentina</address>
+                    </button>
+
+                  </div>
+
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-price">
+                    <strong>Peacebuilding</strong>
+                  </div>
+
+                  <h3 class="h3 card-title">
+                    <a href="https://www.peaceinsight.org/en/regions/latin-america-and-the-caribbean/argentina/?location&theme=peacebuilding" target="_blank" id="initiative-title-3">
+                      Argentina Peace Initiatives
+                    </a>
+                  </h3>
+                  <p class="card-text" id="initiative-description-3">
+                    Local efforts in Argentina engage communities in dialogue and collaboration to foster sustainable peace and development.
+                  </p>
+
+                  <ul class="card-list">
+
+                    <li class="card-item">
+                      <strong>Community</strong>
+
+                      <ion-icon name="people-circle-outline"></ion-icon>
+
+                      <!-- <span>Bedrooms</span> -->
+                    </li>
+
+                    <li class="card-item">
+                      <strong>Dialogue</strong>
+
+                      <ion-icon name="hand-right-outline"></ion-icon>
+
+                      <!-- <span>Bathrooms</span> -->
+                    </li>
+                  </ul>
+
+                </div>
+
+                <div class="card-footer">
+
+                  <div class="card-author">
+
+                    <figure class="author-avatar">
+                      <img src="images/Screenshot 2025-03-03 at 10.24.47.png" alt="William Seklo" class="w-100">
+                    </figure>
+
+                    <div>
+                      <p class="author-name"><a href="#">Argentina Diplomat</a></p>
+                      <p class="author-title">Government & NGO</p>
+                    </div>
+
+                  </div>
+
+                  <div class="card-footer-actions">
+
+                    <button class="card-footer-actions-btn">
+                      <ion-icon name="resize-outline"></ion-icon>
+                    </button>
+
+                    <button class="card-footer-actions-btn">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+
+                    <button class="card-footer-actions-btn">
+                      <ion-icon name="add-circle-outline"></ion-icon>
+                    </button>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="property-card">
+
+                <figure class="card-banner">
+
+                  <a href="#">
+                    <img src="images/Screenshot 2025-03-03 at 10.29.28.png" alt="Luxury villa in Rego Park" class="w-100">
+                  </a>
+
+                  <div class="card-badge green">Initiative</div>
+
+                  <div class="banner-actions">
+
+                    <button class="banner-actions-btn">
+                      <ion-icon name="location"></ion-icon>
+
+                      <address>Nigeria</address>
+                    </button>
+
+                  </div>
+
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-price">
+                    <strong>NGO</strong>
+                  </div>
+
+                  <h3 class="h3 card-title">
+                    <a href="https://www.peaceinsight.org/en/regions/latin-america-and-the-caribbean/argentina/?location=nigeria&theme=peacebuilding" target="_blank" id="initiative-title-4">
+                      Nigeria Peace and Development
+                    </a>
+                  </h3>
+                  <p class="card-text" id="initiative-description-4">
+                    Local organizations in Nigeria drive community dialogue and sustainable development to reduce conflict and foster unity.
+                  </p>
+                  <ul class="card-list">
+
+                    <li class="card-item">
+                      <strong>Collaboration</strong>
+                      <ion-icon name="chatbubble-ellipses-outline"></ion-icon>
+                    </li>
+                    <li class="card-item">
+                      <strong>Empowerment</strong>
+                      <ion-icon name="person-add-outline"></ion-icon>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+                <div class="card-footer">
+
+                  <div class="card-author">
+
+                    <figure class="author-avatar">
+                      <img src="images/Screenshot 2025-03-03 at 10.29.39.png" alt="William Seklo" class="w-100">
+                    </figure>
+
+                    <div>
+                      <p class="author-name"><a href="#">Nigeria Representative</a></p>
+                      <p class="author-title">Peace Advocate</p>
+                    </div>
+
+                  </div>
+
+                  <div class="card-footer-actions">
+
+                    <button class="card-footer-actions-btn">
+                      <ion-icon name="resize-outline"></ion-icon>
+                    </button>
+
+                    <button class="card-footer-actions-btn">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+
+                    <button class="card-footer-actions-btn">
+                      <ion-icon name="add-circle-outline"></ion-icon>
+                    </button>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+      <section class="section blog" id="blog" aria-label="blog">
+        <img src="images/hands-planets.png" alt="" class="planet-hands">
+        <img src="images/Flixter__21_-removebg-preview.png" alt="Decorative Image" class="right-corner-image">
+        <img src="images/leafex.png" alt="" class="leavex">
+        <img src="images/leafex.png" alt="" class="leavex-2">
+        <div class="container">
+  
+          <p class="section-subtitle text-center green" id="blogSubtitle">Our Blog</p>
+  
+          <h2 class="h2 section-title text-center big" id="blogTitle">Latest Blog & News</h2>
+  
+          <ul class="blog-list">
+  
+            <li>
+              <div class="blog-card">
+  
+                <figure class="card-bannerr img-holder" style="--width: 1180; --height: 800;">
+                  <img src="images/Germany.png" width="1180" height="800" loading="lazy"
+                     class="img-cover">
+  
+                  <div class="card-badgee">
+                    <ion-icon name="calendar-outline"></ion-icon>
+  
+                    <time class="time" datetime="2022-03-24">24th March 2022</time>
+                  </div>
+                </figure>
+  
+                <div class="card-contentt">
+  
+                  <h3 class="h3">
+                    <a href="#" class="card-title" id="germanTitle">German Peace Education</a>
+                </h3>
+  
+                <p class="card-text" id="germanDesc">Invests in academic research and conflict resolution training for sustainable peace.</p>
+  
+                <a href="https://berghof-foundation.org/impact/engaging-youth-for-peace-in-germany" class="card-link" target="_blank" id="btn">Read More</a>
+  
+                </div>
+  
+              </div>
+            </li>
+  
+            <li>
+              <div class="blog-card">
+  
+                <figure class="card-bannerr img-holder" style="--width: 1180; --height: 800;">
+                  <img src="images/Screenshot 2025-03-01 at 11.49.18.png" width="1180" height="800" loading="lazy"
+                    alt="Dras accumsan nulla nec lacus ultricies placerat." class="img-cover">
+  
+                  <div class="card-badgee">
+                    <ion-icon name="calendar-outline"></ion-icon>
+  
+                    <time class="time" datetime="2022-03-24">17th December 2024</time>
+                  </div>
+                </figure>
+  
+                <div class="card-contentt">
+  
+                  <h3 class="h3">
+                    <a href="https://www.news.com.au/national/politics/marles-doesnt-rule-out-australian-peacekeepers-in-ukraine/news-story/d0055b38b98cf1310296121a6b04e7fc?" target="_blank" class="card-title" id="australianTitle">Australian Peacekeeping</a>
+                </h3>
+
+                <p class="card-text" id="australianDesc">Deploys military and civilian teams for UN peace operations, enhancing global stability.</p>
+
+                <a href="https://www.news.com.au/national/politics/marles-doesnt-rule-out-australian-peacekeepers-in-ukraine/news-story/d0055b38b98cf1310296121a6b04e7fc?" target="_blank" class="card-link" id="btn5">Read More</a>
+  
+                </div>
+  
+              </div>
+            </li>
+  
+            <li>
+              <div class="blog-card">
+  
+                <figure class="card-bannerr img-holder" style="--width: 1180; --height: 800;">
+                  <img src="images/Screenshot 2025-03-01 at 11.49.40.png" width="1180" height="800" loading="lazy"
+                    alt="Seas accumsan nulla nec lacus ultricies placerat." class="img-cover">
+  
+                  <div class="card-badgee">
+                    <ion-icon name="calendar-outline"></ion-icon>
+  
+                    <time class="time" datetime="2022-03-24">4th February 2025</time>
+                  </div>
+                </figure>
+  
+                <div class="card-contentt">
+  
+                  <h3 class="h3">
+                    <a href="https://www.theguardian.com/global-development/2025/feb/04/grieving-mothers-rio-brazil-helping-victims-of-state-violence?" class="card-title" id="brazilTitle">Brazilian Social Justice</a>
+                </h3>
+
+                <p class="card-text" id="brazilDesc">Invests in urban programs to reduce violence and promote social inclusion and justice.</p>
+
+                <a href="https://www.theguardian.com/global-development/2025/feb/04/grieving-mothers-rio-brazil-helping-victims-of-state-violence?" target="_blank" class="card-link" id="btn1">Read More</a>
+  
+                </div>
+  
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+  
+                <figure class="card-bannerr img-holder" style="--width: 1180; --height: 800;">
+                  <img src="images/Screenshot 2025-03-03 at 10.43.37.png" width="1180" height="800" loading="lazy"
+                    alt="Dras accumsan nulla nec lacus ultricies placerat." class="img-cover">
+  
+                  <div class="card-badgee">
+                    <ion-icon name="calendar-outline"></ion-icon>
+  
+                    <time class="time" datetime="2022-03-24">24th March 2022</time>
+                  </div>
+                </figure>
+  
+                <div class="card-contentt">
+  
+                  <h3 class="h3">
+                    <a href="https://konfliktraadet.no/en/" target="_blank" class="card-title" id="norwegianTitle">Norwegian Mediation</a>
+                </h3>
+
+                <p class="card-text" id="norwegianDesc">Acts as a key mediator in international conflicts and hosts the Nobel Peace Prize ceremonies.</p>
+
+                <a href="https://konfliktraadet.no/en/" target="_blank" class="card-link" id="btn2">Read More</a>
+  
+                </div>
+  
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+  
+                <figure class="card-bannerr img-holder" style="--width: 1180; --height: 800;">
+                  <img src="images/Screenshot 2025-03-03 at 10.45.42.png" width="1180" height="800" loading="lazy"
+                    alt="Dras accumsan nulla nec lacus ultricies placerat." class="img-cover">
+  
+                  <div class="card-badgee">
+                    <ion-icon name="calendar-outline"></ion-icon>
+  
+                    <time class="time" datetime="2022-03-24">24th March 2022</time>
+                  </div>
+                </figure>
+  
+                <div class="card-contentt">
+  
+                  <h3 class="h3">
+                    <a href="https://1000peacewomen.org/en/programmes/participation-in-peace-processes/nepal?" target="_blank" class="card-title" id="nepalTitle">Nepal Peace Dialogue</a>
+                </h3>
+
+                <p class="card-text" id="nepalDesc">NGOs work on post-conflict reconciliation and rebuilding trust among diverse communities.</p>
+
+                <a href="https://1000peacewomen.org/en/programmes/participation-in-peace-processes/nepal?" target="_blank" id="btn3" class="card-link">Read More</a>
+
+  
+                </div>
+  
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+  
+                <figure class="card-bannerr img-holder" style="--width: 1180; --height: 800;">
+                  <img src="images/Screenshot 2025-03-01 at 11.48.53.png" width="1180" height="800" loading="lazy"
+                    alt="Dras accumsan nulla nec lacus ultricies placerat." class="img-cover">
+  
+                  <div class="card-badgee">
+                    <ion-icon name="calendar-outline"></ion-icon>
+  
+                    <time class="time" datetime="2022-03-24">24th March 2022</time>
+                  </div>
+                </figure>
+  
+                <div class="card-contentt">
+  
+                  <h3 class="h3">
+                    <a href="https://www.mofa.go.jp/fp/ipc/page22e_000683.html?" target="_blank" class="card-title" id="japanTitle">Japanese Humanitarian Aid</a>
+                </h3>
+
+                <p class="card-text" id="japanDesc">Provides support for international peacekeeping and humanitarian relief through strategic partnerships.</p>
+
+                <a href="https://www.mofa.go.jp/fp/ipc/page22e_000683.html?" target="_blank" class="card-link" id="btn4">Read More</a>
+
+  
+                </div>
+  
+              </div>
+            </li>
+  
+          </ul>
+  
+        </div>
+      </section>
+
+    </article>
+</main>
+
+<footer class="footer">
+  <img src="images/Flixter__24_-removebg-preview.png" alt="Decorative Background" class="footer-bg-image">
+  <img src="images/Flixter__24_-removebg-preview.png" alt="Decorative Background" class="footer-bg-image-1">
+
+  <div class="footer-top section">
+    <div class="container">
+
+      <div class="footer-brand">
+
+        <a href="#" class="logo">
+          <img src="images/Flixter (5).svg" alt="Peace Planet Logo" width="50" height="50">
+        </a>
+
+        <p class="footer-text" id="footerText">
+          Join us in making the world a peaceful place. Together, we can create a sustainable future for all. Let's take action today for a better tomorrow.
+        </p>
+
+        <form action="" class="newsletter-form">
+          <input type="email" name="email_address" placeholder="Enter your email" required class="email-field">
+
+          <button type="submit" class="form-btn">
+           <a href="form.html"><ion-icon name="paper-plane" aria-hidden="true"></ion-icon></a>
+          </button>
+        </form>
+
+      </div>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="footer-list-title" id="footerCategoryTitle">Category</p>
+        </li>
+
+        <li>
+          <a href="index.html" class="footer-link" id="footerHomeLink">Home page</a>
+        </li>
+
+        <li>
+          <a href="about.html" class="footer-link" id="footerAboutLink">About page</a>
+        </li>
+
+        <li>
+          <a href="initsiative.html" class="footer-link" id="footerInitsiativeLink">Initsiative page</a>
+        </li>
+
+        <li>
+          <a href="next.html" class="footer-link" id="footerProjectLink">Project page</a>
+        </li>
+
+        <li>
+          <a href="event.html" class="footer-link" id="footerEventLink">Event page</a>
+        </li>
+
+
+      </ul>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="footer-list-title" id="footerInformationTitle">Information</p>
+        </li>
+
+        <li>
+          <a href="info.html" target="_blank" class="footer-link" id="footerAdditionalInfoLink">Additional information</a>
+        </li>
+
+        <li>
+          <a href="form.html" target="_blank" class="footer-link" id="footerFormLink">Form</a>
+        </li>
+
+        <li>
+          <a href="quiz.html" target="_blank" class="footer-link" id="footerQuizLink">Quiz</a>
+        </li>
+        <li>
+          <a href="site-map.html" target="_blank" class="footer-link" id="footerSitemapLink">Website map</a>
+        </li>
+
+      </ul>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="footer-list-title" id="footerContactTitle">Contact Me</p>
+        </li>
+
+        <li class="footer-item">
+          <ion-icon name="location" aria-hidden="true"></ion-icon>
+
+          <address class="contact-link address" id="footerAddress">
+            ul. Mencha Karnicheva № 23
+          </address>
+        </li>
+
+        <li class="footer-item">
+          <ion-icon name="call" aria-hidden="true"></ion-icon>
+
+          <a href="tel:+7894631546876" class="contact-link">+359 76 77 450</a>
+        </li>
+
+        <li class="footer-item">
+          <ion-icon name="mail" aria-hidden="true"></ion-icon>
+
+          <a href="mailto:info@hoolix.com" class="contact-link">ahg_2020g@pgiblg.com</a>
+        </li>
+
+        <li class="footer-item">
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-pinterest"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+        </li>
+
+      </ul>
+
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="container">
+
+      <p class="copyright" id="footerCopyright">
+        &copy; 2025 Peaceful Planet | Created for educational purposes by <a href="#" class="copyright-link">Angela Grozdanova</a>
+      </p>
+
+      <ul class="footer-bottom-list">
+
+        <li>
+          <a href="#" class="footer-bottom-link" id="footerPrivacyPolicyLink">Privacy Policy</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-bottom-link" id="footerTermsLink">Terms of Use</a>
+        </li>
+
+      </ul>
+
+    </div>
+  </div>
+
+</footer>
+
+<script src="initsiative.js"></script>
+<script src="./assets/js/script.js"></script>
+
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
