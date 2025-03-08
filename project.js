@@ -41,8 +41,8 @@ const translations = {
     ctaTitleSpan: "Peaceful Future for All",
     ctaBtn1: "Join Our Initiatives",
     ctaBtn2: "Take Action and Spread Awareness",
-    gallerySubtitle: "Our Projects Post",
-    galleryTitle: "Latest Article of Nutrition",
+    gallerySubtitle: "Project Gallery",
+    galleryTitle: "Gallery of projects around the world",
 
     footerText:
       "Join us in making the world a peaceful place. Together, we can create a sustainable future for all. Let's take action today for a better tomorrow.",
@@ -104,8 +104,8 @@ const translations = {
     ctaTitleSpan: "Мирно бъдеще за всички",
     ctaBtn1: "Разгледайте нашите инициативи",
     ctaBtn2: "Действайте и разпространявайте информация",
-    gallerySubtitle: "Нашият проект пост",
-    galleryTitle: "Последна статия за хранене",
+    gallerySubtitle: "Галерия от проекти",
+    galleryTitle: "Галерия на проекти из целия свят",
 
     footerText:
       "Присъединете се към нас, за да направим света мирно място. Заедно можем да създадем устойчиво бъдеще за всички. Нека действаме днес за по-добро утре.",
@@ -216,7 +216,7 @@ function changeLanguage(lang) {
   document.getElementById("footerAddress").innerText =
     translations[lang].footerAddress;
   document.getElementById("footerCopyright").innerHTML =
-    translations[lang].footerCopyright; // Внимавай - тук може да има линк вътре
+    translations[lang].footerCopyright;
 
   document.getElementById("footerPrivacyPolicyLink").innerText =
     translations[lang].footerPrivacyPolicyLink;

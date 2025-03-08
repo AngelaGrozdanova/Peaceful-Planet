@@ -32,10 +32,10 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 30px;
-  gap: 10px; /* леко разстояние между секциите */
+  gap: 10px; 
 }
 .map-section {
-  flex: 1; /* всички секции да са равни */
+  flex: 1; 
   padding: 0 10px;
 }
 .map-section h3 {

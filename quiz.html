@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="quiz.css" />
   </head>
   <body>
-    <!-- Начален екран с бутон -->
     <div class="start-screen popup-container active">
       <div class="start-box quiz-box">
         <h2 class="start-title">Анкета: Вашето мнение за мира</h2>
@@ -21,7 +20,6 @@
       </div>
     </div>
 
-    <!-- Основен Quiz Popup (въпросите) -->
     <div class="quiz-popup popup-container">
       <div class="quiz-container quiz-box">
         <div class="quiz-content">
@@ -35,7 +33,6 @@
       </div>
     </div>
 
-    <!-- Резултати Popup -->
     <div class="result-popup popup-container">
       <div class="result-container quiz-box">
         <h2 class="result-title">Анкета приключена!</h2>
@@ -44,13 +41,11 @@
         </p>
         <img src="images/quiz-2.png" alt="" class="centered-image" />
 
-        <!-- Форма за изпращане на резултати чрез Formspree -->
         <form
           action="https://formspree.io/f/moveaavo"
           method="POST"
           id="result-form"
         >
-          <!-- Скрито поле за резултатите -->
           <input type="hidden" name="results" id="form-results" />
 
           <label class="email-label">

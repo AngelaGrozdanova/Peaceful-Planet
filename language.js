@@ -422,7 +422,7 @@ function changeLanguage(lang) {
   document.getElementById("footerAddress").innerText =
     headerTranslations[lang].footerAddress;
   document.getElementById("footerCopyright").innerHTML =
-    headerTranslations[lang].footerCopyright; // Внимавай - тук може да има линк вътре
+    headerTranslations[lang].footerCopyright; 
 
   document.getElementById("footerPrivacyPolicyLink").innerText =
     headerTranslations[lang].footerPrivacyPolicyLink;

@@ -43,22 +43,14 @@ const courseTranslations = {
     courseCard3Description:
       "Mobile medical clinics deliver on-site emergency healthcare and surgical support, providing immediate, life-saving care at disaster and conflict zones.",
     courseCard3Link: "Read More",
-    // Card 4:
     courseCard4Title: "Reconstruction Assistance for War-Torn Communities",
     courseCard4Description:
       "Support for rebuilding homes and local infrastructure, including schools and hospitals, to restore essential services and enhance community resilience.",
     courseCard4Link: "Read More",
-    // Card 5:
-    // courseCard5Title: "Nigeria Peace and Development",
-    // courseCard5Description:
-    //   "Local organizations in Nigeria drive community dialogue and sustainable development to reduce conflict and foster unity.",
-    // courseCard5Link: "Read More",
-    // Card 6:
     courseCard6Title: "Economic Recovery & Job Creation Program",
     courseCard6Description:
       "Empowering communities through vocational training and micro-loans to promote economic growth, stability, sustainable livelihoods, and social cohesion.",
     courseCard6Link: "Read More",
-    // Card 7:
     courseCard7Title: "Community Reconciliation & Peacebuilding Initiative",
     courseCard7Description:
       "Initiatives like women-led Traditional Dispute Resolution committees empower women to participate in resolving conflicts and promoting peace within their communities.",
@@ -71,8 +63,8 @@ const courseTranslations = {
     ctaBtn1: "View Initiatives",
     ctaBtn2: "Learn About Our Projects",
 
-    blogSubtitle: "Our Blog Post",
-    blogTitle: "Latest Article of Nutrition",
+    blogSubtitle: "Our Event Post in Bulgaria",
+    blogTitle: "Initiatives that are upcoming in Bulgaria",
     blogPost1Title:
       "International culinary competition for people with disabilities is recruiting participants",
     blogPost1Text:
@@ -141,33 +133,23 @@ const courseTranslations = {
     courseCard1Description:
       "Осигурени безопасни маршрути и незабавна спешна хуманитарна помощ за семейства, засегнати от конфликти, чрез сигурни пътища и бърза медицинска реакция.",
     courseCard1Link: "Прочетете повече",
-    // Card 2:
     courseCard2Title: "Програма за спешна помощ за бежанци",
     courseCard2Description:
       "Тази програма предлага цялостна помощ, включително сигурно подслон, хранителни доставки и основна медицинска помощ за изселени лица, засегнати от конфликти.",
     courseCard2Link: "Прочетете повече",
-    // Card 3:
     courseCard3Title: "Мобилни медицински клиники за жертви на война",
     courseCard3Description:
       "Мобилните медицински клиники осигуряват спешни здравни грижи и хирургична подкрепа на място, предоставяйки незабавна, животоспасяваща помощ в зони на бедствия.",
     courseCard3Link: "Прочетете повече",
-    // Card 4:
     courseCard4Title:
       "Помощ за възстановяване на общности, разтърсени от война",
     courseCard4Description:
       "Подкрепа за възстановяване на домове и местна инфраструктура, включително училища и болници, за да се възстановят основните услуги и да се засили устойчивостта на общностите.",
     courseCard4Link: "Прочетете повече",
-    // Card 5:
-    // courseCard5Title: "Мир и развитие в Нигерия",
-    // courseCard5Description:
-    //   "Местните организации в Нигерия водят диалог и устойчиво развитие за намаляване на конфликтите и насърчаване на единството.",
-    // courseCard5Link: "Прочетете повече",
-    // Card 6:
     courseCard6Title: "Програма за икономическо възстановяване",
     courseCard6Description:
       "Овластяване на общности чрез професионално обучение и микро-кредити за насърчаване на икономически растеж, стабилност, устойчиви източници на препитание и социална кохезия.",
     courseCard6Link: "Прочетете повече",
-    // Card 7:
     courseCard7Title: "Инициатива за помирение и изграждане на мир в общността",
     courseCard7Description:
       "Инициативи като комитетите по традиционно разрешаване на спорове, водени от жени, овластяват жените да участват в разрешаването на конфликти и насърчават мира.",
@@ -180,8 +162,8 @@ const courseTranslations = {
     ctaBtn1: "Вижте инициативите",
     ctaBtn2: "Научете за нашите проекти",
 
-    blogSubtitle: "Нашият блог пост",
-    blogTitle: "Последна статия за хранене",
+    blogSubtitle: "Публикации за събития в България",
+    blogTitle: "Инициативи, които предстоят в България",
     blogPost1Title:
       " „Международно кулинарно състезание за хора с увреждания набира участници“",
     blogPost1Text:
@@ -303,7 +285,6 @@ function setCourseLanguage(lang) {
 
   document.getElementById("ctaSubtitle").innerText =
     courseTranslations[lang].ctaSubtitle;
-  // Използваме innerHTML за заглавието, за да запазим структурата със вложения span
   document.getElementById("ctaTitle").innerHTML =
     courseTranslations[lang].ctaTitle +
     " <span id='ctaTitleSpan'>" +
@@ -322,8 +303,6 @@ function setCourseLanguage(lang) {
     courseTranslations[lang].blogPost1Title;
   document.getElementById("blogPost1Text").innerText =
     courseTranslations[lang].blogPost1Text;
-  //   document.getElementById("blogPost1ReadMore").innerText =
-  //     courseTranslations[lang].blogPost1ReadMore;
   document.getElementById("blogPost2Title").innerText =
     courseTranslations[lang].blogPost2Title;
   document.getElementById("blogPost2Text").innerText =
@@ -365,7 +344,7 @@ function setCourseLanguage(lang) {
   document.getElementById("footerAddress").innerText =
     courseTranslations[lang].footerAddress;
   document.getElementById("footerCopyright").innerHTML =
-    courseTranslations[lang].footerCopyright; // Внимавай - тук може да има линк вътре
+    courseTranslations[lang].footerCopyright;
 
   document.getElementById("footerPrivacyPolicyLink").innerText =
     courseTranslations[lang].footerPrivacyPolicyLink;

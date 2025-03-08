@@ -43,29 +43,25 @@ document.addEventListener("DOMContentLoaded", () => {
   const lightbox = document.querySelector(".lightbox");
   const closeImgBtn = lightbox.querySelector(".close-icon");
 
-  // Show lightbox when an image is clicked
   allImages.forEach((img) => {
     img.addEventListener("click", () =>
       showLightbox(img.querySelector("img").src)
     );
   });
 
-  // Function to show the lightbox
   const showLightbox = (imgSrc) => {
     const lightboxImg = lightbox.querySelector("img");
-    lightboxImg.src = imgSrc; // Set the image source
-    lightbox.classList.add("show"); // Show the lightbox
-    document.body.style.overflow = "hidden"; // Disable body scroll
+    lightboxImg.src = imgSrc; 
+    lightbox.classList.add("show"); 
+    document.body.style.overflow = "hidden"; 
   };
 
-  // Close lightbox when the "X" icon is clicked
   closeImgBtn.addEventListener("click", (event) => {
-    event.stopPropagation();  // Prevent the event from bubbling up to the lightbox click
-    lightbox.classList.remove("show"); // Hide the lightbox
-    document.body.style.overflow = "auto"; // Enable body scroll
+    event.stopPropagation();  
+    lightbox.classList.remove("show"); 
+    document.body.style.overflow = "auto"; 
   });
 
-  // Close lightbox when clicking outside of the image (outside the wrapper)
   lightbox.addEventListener("click", (e) => {
     if (e.target === lightbox) {
       lightbox.classList.remove("show");

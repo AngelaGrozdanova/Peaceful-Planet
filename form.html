@@ -49,14 +49,12 @@
     </div>
 
     <script>
-      // Използваме pageshow събитието, за да засечем връщането към страницата
       window.addEventListener('pageshow', function(event) {
         if (event.persisted) {
           document.querySelector("form").reset();
         }
       });
     
-      // Или може да използвате и onload, за да нулирате формата:
       window.addEventListener('load', function() {
         document.querySelector("form").reset();
       });

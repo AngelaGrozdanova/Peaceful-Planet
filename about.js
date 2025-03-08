@@ -427,7 +427,7 @@ function setAboutLanguage(lang) {
   document.getElementById("footerAddress").innerText =
     aboutTranslations[lang].footerAddress;
   document.getElementById("footerCopyright").innerHTML =
-    aboutTranslations[lang].footerCopyright; // Внимавай - тук може да има линк вътре
+    aboutTranslations[lang].footerCopyright;
 
   document.getElementById("footerPrivacyPolicyLink").innerText =
     aboutTranslations[lang].footerPrivacyPolicyLink;
@@ -437,8 +437,5 @@ function setAboutLanguage(lang) {
 
 function changeLanguage(lang) {
   setAboutLanguage(lang);
-  // Можете да добавите и функции за останалите секции тук
 }
 
-// Примерно извикване:
-// changeLanguage('bulgarian');

@@ -561,7 +561,6 @@ body {
   background: var(--pistachio);
   width: max-content;
   border-radius: 50px;
-  /* margin-inline: auto; */
   margin-bottom: 15px;
 }
 
@@ -1120,9 +1119,9 @@ body {
 
 .right-corner-image {
   position: absolute;
-  top: -281px;
-  right: -110px;
-  width: 780px;
+  top: -200px;
+  right: -68px;
+  width: 650px;
   height: auto;
 }
 
@@ -1172,7 +1171,6 @@ body {
   transition: transform 0.25s ease;
 }
 
-/* Поправен селектор */
 .blog-card:hover .card-bannerr img,
 .blog-card:focus-within .card-bannerr img {
   transform: scale(1.1);

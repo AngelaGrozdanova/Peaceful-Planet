@@ -13,7 +13,6 @@ body {
   background-repeat: no-repeat;
 }
 
-/* Начален екран */
 .start-screen {
   position: fixed;
   left: 0;
@@ -421,7 +420,6 @@ body {
   background-color: #3e7a8e;
 }
 
-/* Стилове за футър */
 .quiz-footer .next-question-btn {
   background-color: hsl(86, 45%, 54%);
   color: #fff;
@@ -434,7 +432,6 @@ body {
   transition: background-color 0.3s ease;
 }
 
-/* Финални стилове за бутоните */
 .quiz-footer .next-question-btn {
   display: inline-flex;
   gap: 5px;
@@ -450,7 +447,6 @@ body {
   border-top: 1px solid #c6c6c6;
 }
 
-/* Стил за лейбълите */
 .email-label {
   font-size: 16px;
   font-weight: bold;
@@ -458,7 +454,6 @@ body {
   margin-bottom: 10px;
   display: block;
 }
-
 
 .email-input {
   width: 100%;
@@ -492,7 +487,6 @@ body {
   background-color: #45a049;
 }
 
-/* Media query code for mobile screens */
 @media (max-width: 624px) {
   .config-container,
   .quiz-container .quiz-content {

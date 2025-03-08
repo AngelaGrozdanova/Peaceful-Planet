@@ -86,10 +86,10 @@ form .message {
 form .message i {
   position: absolute;
   top: 18%;
-  left: 20px; /* Adjust the left space to position the icon properly */
+  left: 20px; 
   transform: translateY(-50%);
   font-size: 20px;
-  color: #ccc; /* Icon color */
+  color: #ccc; 
 }
 
 form .message textarea {
@@ -97,7 +97,7 @@ form .message textarea {
   max-height: 230px;
   max-width: 100%;
   min-width: 100%;
-  padding: 15px 20px 0 48px; /* Adjust padding-left to make space for the icon */
+  padding: 15px 20px 0 48px; 
   border-radius: 5px;
   border: 1px solid #ccc;
 }

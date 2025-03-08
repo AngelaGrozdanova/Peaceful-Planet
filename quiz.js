@@ -100,14 +100,12 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   }
 
-  // Обновяване на текста "Въпрос X от Y"
   function updateQuestionStatus() {
     questionStatusEl.innerText = `Въпрос ${currentQuestionIndex + 1} от ${
       questions.length
     }`;
   }
 
-  // Преминаване към следващ въпрос
   nextQuestionBtn.addEventListener("click", function () {
     if (responses[currentQuestionIndex] != null) {
       currentQuestionIndex++;
@@ -117,7 +115,6 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 
-  // Показване на резултатите
   function showResults() {
     let yesCount = responses.filter((r) => r === "да").length;
     let noCount = responses.filter((r) => r === "не").length;
@@ -147,8 +144,6 @@ document.addEventListener("DOMContentLoaded", function () {
     resultPopup.classList.add("active");
   }
 
-  // Рестарт на анкетата
-  // Връщане на потребителя на началния екран
   tryAgainBtn.addEventListener("click", function () {
     currentQuestionIndex = 0;
     responses = [];
@@ -156,11 +151,9 @@ document.addEventListener("DOMContentLoaded", function () {
     startScreen.classList.add("active");
   });
 
-  // Функция за генериране на текст за резултатите
   function generateResultsText() {
     let resultText = "Резултати от анкетата:\n\n";
 
-    // Преглед на отговорите и добавяне на текст за всеки въпрос
     questions.forEach((question, index) => {
       resultText += `${question.question}\nОтговор: ${
         responses[index] || "Не е отговорено"
@@ -170,24 +163,20 @@ document.addEventListener("DOMContentLoaded", function () {
     return resultText;
   }
 
-  // Добавяне на обработчик за изпращане на резултатите
   document
     .querySelector("#result-form")
     .addEventListener("submit", function (event) {
-      event.preventDefault(); // Предотвратяване на автоматичното изпращане на формата
+      event.preventDefault();
 
-      // Проверка дали има резултати (можете да добавите валидация тук, ако е необходимо)
       const resultText = generateResultsText();
 
-      // Присвояване на резултатите към скритото поле
       const formResultsField = document.querySelector("#form-results");
       if (formResultsField) {
-        formResultsField.value = resultText; // Поставяне на резултатите в скритото поле
+        formResultsField.value = resultText; 
       } else {
         console.error("Скритото поле не беше намерено!");
       }
 
-      // Изпращане на формата
-      this.submit(); // Изпраща формата след като попълни резултатите
+      this.submit(); 
     });
 });

@@ -399,10 +399,6 @@ body {
   line-height: 1.2;
 }
 
-/* #heroTitle {
-  font-size: 5.5rem;
-} */
-
 .hero-text {
   font-family: var(--ff-inter);
   font-size: var(--fs-8);
@@ -1040,7 +1036,6 @@ body {
 
 .section-titles {
   font-size: 36px;
-  /* margin-bottom: 20px; */
 }
 
 .h2.section-titles.big {
