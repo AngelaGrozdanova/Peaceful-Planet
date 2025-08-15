@@ -1,10 +1,8 @@
 <p align="center">
-  <a href="https://vimeo.com/1110269850">
     <img src="thumb.png" alt="Peaceful Planet Preview" width="1200"/>
-  </a>
 </p>
 
-<h1 align="center">🌍 Peaceful Planet 🌍</h1>
+<h1 align="center">Peaceful Planet</h1>
 
 <p align="center">
     A multilingual educational platform that highlights social initiatives, impactful projects, and globally-oriented events.
@@ -20,20 +18,34 @@ Its goal is to present **social initiatives**, **community-driven projects**, an
 The platform showcases:
 - A **responsive** and **accessible** design.
 - **Interactive** features to enhance user engagement.
-- A clean structure that supports multiple languages.
+- Support for **multiple languages**.
+- Clean and modern **UI/UX** design.
 
 ---
 
+## ✨ Features
 
-## 🌐 Socials and Tech Stack
+- Explore **social initiatives** around the world.  
+- View **projects** and **events** with detailed descriptions.  
+- Responsive **mobile-first design** for all devices.  
+- Smooth navigation with **interactive menus**.  
+- Built-in **language selector** for multilingual content.  
+- Lightweight and **fast-loading pages**.  
+
+---
+
+## 🖼 Screenshots / Demo
+
 <p align="center">
-    <a href="https://www.instagram.com/YourHandle" target="_blank">
-        <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white&logoWidth=40" alt="Instagram"/>
-    </a>
-    <a href="https://www.facebook.com/YourProfile" target="_blank">
-        <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white&logoWidth=40" alt="Facebook"/>
-    </a>
-   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white&logoWidth=40" alt="HTML5" />
-    <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white&logoWidth=40" alt="CSS3" />
-    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black&logoWidth=40" alt="JavaScript" />
+  <img src="Screenshot 2025-08-15 at 16.17.55.png" width="600" alt="Homepage screenshot"/>
+  <img src="Screenshot 2025-08-15 at 16.18.12.png" width="600" alt="Projects page screenshot"/>
+   <img src="Screenshot 2025-08-15 at 16.18.31.png" width="600" />
 </p>
+
+---
+
+## ⚙️ Installation / How to Run
+
+1. Clone the repository:  
+```bash
+git clone https://github.com/YourUsername/Peaceful-Planet.git
