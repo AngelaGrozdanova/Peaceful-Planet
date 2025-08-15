@@ -37,9 +37,9 @@ The platform showcases:
 ## 🖼 Screenshots / Demo
 
 <p align="center">
-  <img src="Screenshot 2025-08-15 at 16.17.55.png" width="600" alt="Homepage screenshot"/>
-  <img src="Screenshot 2025-08-15 at 16.18.12.png" width="600" alt="Projects page screenshot"/>
-   <img src="Screenshot 2025-08-15 at 16.18.31.png" width="600" />
+  <img src="Screenshot 2025-08-15 at 16.17.55.png" width="1000" alt="Homepage screenshot"/>
+  <img src="Screenshot 2025-08-15 at 16.18.12.png" width="1000" alt="Projects page screenshot"/>
+   <img src="Screenshot 2025-08-15 at 16.18.31.png" width="1000" />
 </p>
 
 ---
