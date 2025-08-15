@@ -1,3 +1,5 @@
+![Homepage](thumb.png)
+
 <h1 align="center">🌍 Peaceful Planet 🌍</h1>
 
 <p align="center">
