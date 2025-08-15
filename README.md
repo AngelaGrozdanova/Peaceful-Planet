@@ -2,7 +2,7 @@
     <img src="thumb.png" alt="Peaceful Planet Preview" width="1200"/>
 </p>
 
-<h1>Peaceful Planet</h1>
+<h1 aligh="center">Peaceful Planet</h1>
 
 <p>
     A multilingual educational platform that highlights social initiatives, impactful projects, and globally-oriented events.
