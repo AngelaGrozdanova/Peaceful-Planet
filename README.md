@@ -4,7 +4,7 @@
 
 <h1>Peaceful Planet</h1>
 
-<p align="center">
+<p>
     A multilingual educational platform that highlights social initiatives, impactful projects, and globally-oriented events.
 </p>
 
