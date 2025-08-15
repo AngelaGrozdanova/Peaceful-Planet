@@ -23,6 +23,13 @@ The platform showcases:
 
 ---
 
+## ⚙️ Installation / How to Run
+
+1. Clone the repository:  
+```bash
+git clone https://github.com/YourUsername/Peaceful-Planet.git
+```
+
 ## ✨ Features
 
 - Explore **social initiatives** around the world.  
@@ -42,10 +49,4 @@ The platform showcases:
    <img src="Screenshot 2025-08-15 at 16.18.31.png" width="1000" />
 </p>
 
----
 
-## ⚙️ Installation / How to Run
-
-1. Clone the repository:  
-```bash
-git clone https://github.com/YourUsername/Peaceful-Planet.git
