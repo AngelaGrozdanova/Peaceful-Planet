@@ -1,40 +1,40 @@
-<h1 align="center">🌍 Peaceful-Planet 🌍</h1>
+<h1 align="center">🌍 Peaceful Planet 🌍</h1>
 
 <p align="center">
-    <em>Многоезичен уебсайт за социални инициативи, проекти и събития с глобална насоченост</em>
+    Multilingual educational website showcasing social initiatives, projects, and globally-oriented events.
 </p>
 
 ---
 
 <p align="center">
-    <strong>Използвани технологии</strong>
+    <b>Technologies Used</b>
 </p>
 
 <p align="center">
-    <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="HTML5" />
-    <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white" alt="CSS3" />
-    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black" alt="JavaScript" />
+    <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white" alt="HTML5" />
+    <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white" alt="CSS3" />
+    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black" alt="JavaScript" />
 </p>
 
 ---
 
-## ℹ️ За проекта
+## About
 
-**Peaceful Planet** е учебен многоезичен уебсайт, създаден за представяне на социални инициативи, проекти и събития с глобална насоченост.  
-Той демонстрира използването на **HTML**, **CSS** и **JavaScript** за създаване на адаптивен, интерактивен и достъпен интерфейс.
+**Peaceful Planet** is a multilingual educational website designed to present social initiatives, projects, and events with a global focus.  
+It demonstrates the use of **HTML**, **CSS**, and **JavaScript** to create a responsive, interactive, and accessible interface.
 
 ---
 
-## 🌐 Социални мрежи
+## Connect
 
 <p align="center">
-    <a href="https://github.com/YourUsername" target="_blank">
-        <img src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white" />
+    <a href="https://github.com/YourUsername">
+        <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" />
     </a>
-    <a href="https://www.linkedin.com/in/YourProfile" target="_blank">
-        <img src="https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white" />
+    <a href="https://www.linkedin.com/in/YourProfile">
+        <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" />
     </a>
-    <a href="https://twitter.com/YourHandle" target="_blank">
-        <img src="https://img.shields.io/badge/Twitter-1DA1F2?logo=twitter&logoColor=white" />
+    <a href="https://twitter.com/YourHandle">
+        <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=flat&logo=twitter&logoColor=white" />
     </a>
 </p>
